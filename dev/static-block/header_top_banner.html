@@ -1,0 +1,69 @@
+<style>
+    .offerEventHeaderWrap {position:relative;max-width:1200px;margin:auto;}
+    .offerEventHeader img {margin:0 auto;}
+    .show-above-768 {display:none;}
+    .event-mobile-image {width:100%;}
+    #topEventBannerClose {    position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 10px;
+        right: 10px;
+        background: #891a1c;
+        border-radius: 10px;
+        opacity: .3;}
+
+    #topEventBannerClose:before, #topEventBannerClose:after {
+        position: absolute;
+        left: 9px;
+        content: ' ';
+        height: 14px;
+        width: 2px;
+        background-color: #fff;
+        top: 3px;
+    }
+    #topEventBannerClose:hover {opacity:1}
+    #topEventBannerClose:before {
+        transform: rotate(45deg);
+    }
+    #topEventBannerClose:after {
+        transform: rotate(-45deg);
+    }
+
+    #topBannerClose i {}
+    @media only screen and (max-width: 767px) {
+        .show-above-768 {display:block!important;}
+        #topEventBannerClose {opacity: 1;}
+    }
+</style>
+
+<div class="offerEventHeader" style="background:#cacaca;">
+    <div class="offerEventHeaderWrap">
+        <a href="https://www.razorsbydorco.co.uk/offer-event"><img src="{{media url="wysiwyg/dorco_event_offer_desktop_top.jpg"}}" class="hide-below-768">
+
+            <img src="{{media url="wysiwyg/dorco_event_offer_mobile_top.jpg"}}" alt="" class="show-above-768 event-mobile-image" />
+
+        </a>
+        <a href="#" id="topEventBannerClose"></a>
+    </div>
+</div>
+
+<script>
+    var par=jQuery(".offerEventHeader");
+    var today = new Date();
+    today.setTime(today.getTime());
+    var expiress = 1 * 60 * 60 * 24 * 1000;
+    var expires_date = new Date(today.getTime()+(expiress));
+    Mage.Cookies.expires = expires_date;
+    Mage.Cookies.clear('popupCookie20160527');
+    if (Mage.Cookies.get('popupCookie20160527') != null){
+        par.remove();
+    } else {
+        par.css('display','block');
+    }
+    jQuery("#topEventBannerClose").click(
+            function () {
+                par.remove();
+                Mage.Cookies.set('popupCookie20160527','set');
+            }
+    );
+</script>

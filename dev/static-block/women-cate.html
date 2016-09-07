@@ -1,0 +1,112 @@
+<div id="dorko_uk_top">
+    <div class="container_12 dorco_slider_wrapper">
+        <h1 class="top_heading_women">DORCO EVE PERFECTLY ADAPTS TO YOUR SKIN</h1>
+        <div id="dorco_slider">
+            <div class="product_area_women">
+                <div class="product_title_wrap">
+                    <h2 class="product_title">Value Packs</h2>
+                    <p class="sub_body">You’d much rather be buying treats than razors<br>
+                        Save now with our value packs</p>
+                </div>
+                <a title="Subscribe PACE3" href="/women/value-packs"><img class="product_image retinaImg" alt="Value Packs, More You Save" src="/asset/images/eve_products_03.jpg" /></a>
+                <div class="body_bottom">
+                    <a class="btn_dorco women_btn_sel" title="" href="/women/value-packs">SELECT</a> </div>
+            </div>
+            <div class="product_area_women">
+                <div class="product_title_wrap">
+                    <h2 class="product_title">BLADES</h2>
+                    <p class="sub_body">Precisely  hugs  your curves<br>for the realities of shaving</p>
+                </div>
+                <a title="Subscribe PACE3" href="/women/blades"><img class="product_image retinaImg" alt="Fresh Blade Shave" src="/asset/images/eve_products_05.jpg" /></a>
+                <div class="body_bottom">
+                    <a class="btn_dorco women_btn_sel" title="" href="/women/blades">SELECT</a> </div>
+            </div>
+            <div class="product_area_women">
+                <div class="product_title_wrap">
+                    <h2 class="product_title">SUBSCRIPTION</h2>
+                    <p class="sub_body">A subscription is like giving yourself<br>a gift of time every month</p>
+                </div>
+                <a title="Subscribe PACE3" href="/subscriptions/subscriptions-dorco-eve-contour-replacement-blades-x-4-subscription"><img class="product_image retinaImg" alt="Try Our Razors" src="/asset/images/eve_products_07.jpg" /></a>
+                <div class="body_bottom">
+                    <a class="btn_dorco women_btn_sel" title="" href="/subscriptions/subscriptions-dorco-eve-contour-replacement-blades-x-4-subscription">SELECT</a> </div>
+            </div>
+        </div>
+    </div>
+
+    <!--begin 20160830 eve-->
+    <script>
+        function movetosomewhere(url) {
+            location.href = url;
+        }
+    </script>
+
+    <div class="container_12 clearfix women_section02" onclick="movetosomewhere('https://www.razorsbydorco.co.uk/women/disposables');">
+        <div class="women_section02_attr clearfix">
+            <div class="women_section02_title">
+                DISPOSALBLE &nbsp; RAZORS
+            </div>
+            <div class="women_section02_left">
+                <img src="/asset/images/160830-women-razors.png" alt="DORCO" class="retinaImg women_section02_left_img">
+
+            </div>
+            <div class="women_section02_right">
+                <div class="women_section02_left_title"><strong>Specially selected to help you look your best</strong></div>
+                <ul>
+                    <li>Dorco EVE 6 Disposable Razor</li>
+                    <li>Dorco EVE 4 Disposable Razor</li>
+
+                </ul>
+                <div class="women_section02_right2 clearfix">
+                    <table class="women_section02_right_table">
+                        <tbody>
+                        <tr>
+                            <td><p class="women_section02_right_p">3
+                            </p><br>Packs
+                            </td>
+                            <td><p class="women_section02_right_p">5
+                            </p><br>Packs
+                            </td>
+                            <td><p class="women_section02_right_p">10
+                            </p><br>Packs
+                            </td>
+
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="women_btn02_container">
+                    <a class="women_btn02_select" title="SUBSCRIBE Dorco EVE" href="/women/disposables/">SHOP NOW</a> </div>
+            </div>
+        </div>
+
+    </div>
+    <!--end 20160826 eve-->
+
+
+</div>
+
+
+
+
+
+<script type="text/javascript">// <![CDATA[
+j$('#dorco_slider').owlCarousel({
+    itemsCustom : [
+        [0, 1],
+        [450, 3]
+    ], //break point for single item at mobile portrait
+    navigation : true,
+    pagination: false,
+    rewindNav:false,
+    navigationText: ["", ""],
+    addClassActive:true
+}) // set Razor slide with Responsive
+
+j$(document).scroll(function() {
+    //console.log(j$('body').scrollTop());
+    if (j$('body').scrollTop() >0 && j$('body').scrollTop() <350) j$('#dorco_slider.owl-theme .owl-controls .owl-buttons div').show();
+    else j$('#dorco_slider.owl-theme .owl-controls .owl-buttons div').hide();
+});
+// ]]></script>
+<script type="text/javascript" src="/asset/js/retina.js"></script>

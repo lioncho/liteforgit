@@ -1,0 +1,103 @@
+.women_section02_right{float: right;margin: 0% 5% 0% 0%;width: 50%;max-width: 37%;}
+.women_section02_right ul {
+    /* left: 18%; */
+    /* padding: 0% 5% 4% 15%; */
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+    color: #2a2a2a;
+}
+.women_section02_right ul li {
+}
+.women_section02_right ul li:before{content: "√";
+    margin-right: 5px;}
+
+.women_section02_right_table{
+    margin: 0 auto;
+}
+.women_section02_right_table tbody{}
+.women_section02_right_table tbody tr {}
+.women_section02_right_table tbody tr td {
+    padding: 0% 4% 0% 4%;
+    color: #403d3d;
+    font-size: 13px;
+    font-family: 'Univers LT W01_65 Bold';
+    line-height: 1;
+}
+.women_section02_right_table tbody tr td p {
+    /*     border: 2px solid #51ced4;
+        border-radius: 30px;
+        line-height: 1.2;
+        font-size: 22px;
+        margin: 0% 0% 16% 0%;
+        box-sizing: border-box;
+        width: 55px;
+        height: 55px;
+        color: #827d7d;
+        display: inline-block;
+        padding: 26% 1% 0% 1%; */
+}
+.women_section02_right_p{
+    border: 2px solid #51ced4;
+    border-radius: 30px;
+    line-height: 2.5;
+    font-size: 17px;
+    margin-bottom: 16%;
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    color: #827d7d;
+    display: inline-block;
+
+
+}
+
+.women_section02_right2{margin: 4% 0% 3% 0%;}
+.women_btn02_container{margin: 0 auto;}
+
+.women_btn02_select {
+    display: block;
+    margin: 0 auto;
+    background: #51ced4;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #35adaa;
+    width: 69%;
+    line-height: 39px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Univers LT W01_65 Bold';
+}
+
+.women_btn02_select:hover { color:#51ced4;background:#fff;}
+
+.product_area_women {
+    border: 1px solid #ccc;
+    padding: 40px 0 0 0;
+    margin: 0 10px;
+}
+
+
+.women_btn_sel {
+    font-size: 15px;
+    background: #51ced4;
+    margin: 30px auto 40px;
+    padding: 13px 30px;
+    font-family: 'Univers LT W01_75 Black';
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #35adaa;
+    display: block;
+    text-align: center;
+    width: 70%;
+    max-width: 190px;
+}
+
+.women_btn_sel:hover {color:#51ced4;background:#fff;}
+
+.women_section02_left_img{
+
+
+}
+/* end women */

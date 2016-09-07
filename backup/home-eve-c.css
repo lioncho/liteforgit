@@ -1,0 +1,413 @@
+
+
+<style>
+@font-face {
+    font-family: 'bebasregular';
+    src: url('/asset/font/bebas-webfont.eot');
+    src: url('/asset/font/bebas-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/asset/font/bebas-webfont.woff2') format('woff2'),
+    url('/asset/font/bebas-webfont.woff') format('woff'),
+    url('/asset/font/bebas-webfont.ttf') format('truetype'),
+    url('/asset/font/bebas-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.top_heading,
+.product_title,
+.top_con_01 h2 {font-family: 'bebasregular' !important; color:#585858;}
+
+.main.container_12 {padding:0;}
+#dorko_uk_top .grid_12,
+#dorko_uk_top .grid_full {width:100%;margin:0;}
+#dorko_uk_top img {width:auto;display:block;margin:0 auto;}
+
+.orangeText {color:#fc740e;}
+.cta_label {
+    background: #fc740e;
+    text-align: center;
+    color: #fff;
+    padding: 40px 0;
+}
+.cta_label.eve-label {background: #7dc7bd;}
+.cta_title {    font-size: 28px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-family: 'bebasregular' !important;
+    letter-spacing: 2px;
+    margin-bottom: 22px;}
+.btn_cta {    border: 1px solid #fff;
+    padding: 14px;
+    line-height: 1;
+    display: inline-block;
+    font-weight: 700;
+    font-family: "Univers LT W01_65 Bold";
+    background: #fff;
+    color: #fc740e;
+    font-size: 14px;
+    width: 280px;
+    border-radius: 6px;}
+
+.btn_cta:hover {background:#fff;color:#d0121c;}
+
+.eve-label .btn_cta {
+
+    color: #7dc7bd;}
+
+.top_heading {
+    text-align: center;
+    margin: 60px 0 15px 0;
+    line-height:1.2;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+
+
+#dorko_uk_top {}
+.col_01_0615 {position: relative;}
+.top_heading {    text-align: center;
+    margin: 60px 0 15px 0;
+    line-height: 1.2;
+    margin-bottom: 0px;
+    font-size: 37px;
+    color: #000;
+    margin: 90px 0 60px;}
+.top_col_1 {position:absolute;left:0;}
+.top_col_2 {margin-left:25%;}
+.top_col_3 {}
+.top_col_icon {    text-align: center;
+    padding: 70px 0 10px;}
+.col1_subheading {     color: #2a2a2a;
+    font-size: 20px;
+    font-family: 'bebasregular' !important;
+    margin-top: -10px;}
+.col1_subbody {    color: #747474;
+    font-size: 16px;}
+
+.top_con_01 {}
+.top_con_01 .top_heading {}
+.top_con_01 ul {    text-align: center;}
+.top_con_01 ul li {    display: inline;
+    font-size: 26px;
+    color: #fc740e;
+    border-right: 2px solid #2a2a2a;
+    font-family: 'bebasregular' !important;}
+.top_con_01 ul li:last-child {border:none}
+.top_con_01 ul li span{color:#fc740e;padding:25px;}
+.top_con_01 img {margin-top:20px !important;}
+
+
+.top_con_02 {    text-align: center;
+    padding: 100px 0;}
+
+.bottom_col_icon {display:inline-block;padding:0 45px;    margin: 0;    vertical-align: top;}
+
+.top_con_02 .col1_subheading {padding: 30px 0 15px;letter-spacing:1px;}
+.col1_subbody {}
+
+.mobile_switcher_large {display:block;}
+.mobile_switcher_small {display:none;}
+
+.dorco-eve { background: #fff;
+    padding: 56px 0 47px;
+    text-align: center;}
+
+.dorco-eve .con_btn {    display: block;
+    margin-bottom: -44px;}
+.dorco-eve.top_con_01 ul {}
+.dorco-eve.top_con_01 ul li  {    height: 37px;
+    line-height: 33px;
+    color: #636362;
+    border:none;
+    padding: 0 12px;
+    display: inline-block;
+    font-size: 37px;
+    vertical-align: inherit;}
+
+.btn_eve {    border: 1px solid #636362;
+    padding: 14px;
+    line-height: 1;
+    display: inline-block;
+    font-weight: 700;
+    font-family: "Univers LT W01_65 Bold";
+    background: #636362;
+    color: #fff;
+    font-size: 14px;
+    width: 280px;
+    border-radius: 6px;}
+.btn_eve:hover {background: #fff;    color: #636362;}
+
+
+@media only screen and  (max-width: 1279px) {
+    .cta_label {font-size:25px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .cta_label {font-size:20px;}
+}
+
+@media only screen and (max-width: 768px) {
+    .cta_label {padding: 20px 0;}
+    .cta_title {font-size: 17px;}
+    .cta_label .cta_title{margin-bottom:.5em;}
+    .btn_cta {    padding: 7px;
+        width: 160px;
+        font-size: 12px;}
+    .top_con_01{font-size:22px;padding-bottom:2em;}
+    .top_con_02 .container_12,
+    .top_con_01 .container_12{width:100%;padding:0;}
+    .top_col_2{margin-left:0;}
+    .top_col_1,
+    .top_col_3{position:static;width:48% !important;    margin: 0 1%;margin-bottom:20px;}
+    .top_col_icon{padding-top:0;}
+    .top_heading{font-size:25px;margin:60px 0 30px;padding:0 10px;}
+    .bottom_col_icon{padding:0 1%;width:32%;}
+    .mobile_switcher_large{display:none;}
+    .mobile_switcher_small{display:block;}
+
+    .dorco-eve{}
+    .dorco-eve .con_btn{}
+    .dorco-eve.top_con_01 ul{}
+    .dorco-eve.top_con_01 ul li{}
+    .btn_eve{}
+    .btn_eve:hover{}
+    .owl-buttons {display:none;}
+
+
+}
+@media only screen and (min-width: 480px) {
+    .image_container_0822{
+        display:block;}
+    .image_container_0822_mobile{
+        display:none;}
+
+}
+
+@media only screen and (max-width: 479px) {
+    .cta_label{font-size:15px;}
+    .dorco_slider_wrapper{font-size:22px;}
+    .dorco_slider_wrapper .top_heading{font-size:1.6em;}
+    .top_body{margin-bottom:2em !important;font-size:15px;}
+    .top_con_01 ul li{font-size:15px;}
+    .top_con_01 ul li a{padding:15px;}
+    /*	.bottom_col_icon{width:98%;}*/
+
+    .top_con_02 .col1_subheading{font-size:12px;line-height:1.2;min-height:58px;padding-bottom:0;}
+    .top_con_02 .col1_subbody{font-size:10px;line-height:1.2;}
+    .top_con_02{padding:20px 0;}
+    .top_col_icon .col1_subheading{    min-height: 38px;
+        font-size: 16px;
+        line-height: 1.2;}
+    .top_col_icon .col1_subbody{font-size:11px;line-height:1.2;}
+    .top_con_01 ul li span{padding:0px 8px 0px 0px;}
+
+    .dorco-eve{    padding: 25px 0 !important;}
+    .dorco-eve .con_btn{margin-bottom: 0;}
+    .dorco-eve.top_con_01 ul{}
+    .dorco-eve.top_con_01 ul li{    font-size: 26px;
+        line-height: 22px;
+        height: 25px;}
+    .btn_eve{    padding: 7px;
+        width: 160px;
+        font-size: 12px;}
+    .btn_eve:hover{}
+    .image_container_0822{
+        display:none;}
+    .image_container_0822_mobile{
+        display:block;}
+    .mobile_content_box01{left:-5%;}
+
+}
+@media only screen and (orientation:landscape) and (max-device-width: 1024px) and (min-device-width: 1024px) and (max-device-height:768px){  .image_container_0822 {width:1788px !important;  }  .container_ipad01{display:block !important;}  }
+@media only screen and (orientation:portrait) and (max-device-width: 768px)  and (min-device-width: 768px) and (max-device-height:1024px){  .image_container_0822 {width:1479px !important;  }  .container_ipad01{display:block !important;}  }
+@media only screen and (orientation:portrait) and (max-device-width: 414px) and (max-device-height: 736px){    .mobile_content_box01{left:-3% !important;} .container_ipad01{display:none;}}
+@media only screen and (orientation:portrait) and (max-device-width: 412px) and (max-device-height: 732px){    .mobile_content_box01{left:-5% !important;}  .container_ipad01{display:none;}}
+@media only screen and (orientation:portrait) and (max-device-width: 375px) and (max-device-height: 667px){  .mobile_content_box01{left:-6% !important;}  .container_ipad01{display:none;} }
+@media only screen and (orientation:portrait) and (max-device-width: 360px) and (max-device-height: 640px){  .mobile_content_box01{left:-9% !important;}  .container_ipad01{display:none;} }
+@media only screen and (orientation:portrait) and (max-device-width: 320px) and (max-device-height: 568px){    .mobile_content_box01{left:-13% !important;}  .container_ipad01{display:none;} }
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {  }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5)  and (max-width: 479px) {  }
+
+
+
+
+.footer .block-subscribe button.button {text-transform: uppercase;}
+.image_container_0822{
+    background: url('/asset/images/160817-dorco-main-video-background.jpg') no-repeat center 0;
+    width:100%;
+    height:525px;
+    margin:0px;
+    padding:0px;
+    min-width:1000px;
+}
+
+.main_content_0822{
+    width:1000px;
+    height:525px;
+    margin:0 auto;
+    padding-top:45px;
+    position:relative;
+
+
+}
+
+.video_box_0822{
+    display: block;
+    background: rgba(255,255,255,0);
+    -pie-background: rgba(255,255,255,0);
+    border-style: none;
+    border-radius: 0px;
+    left: -141px;
+    top: 78px;
+    z-index: 62;
+    width: 34%;
+    height: 353px;
+    position: absolute;
+
+}
+
+.btn_16081701{
+    position:absolute;
+    top:420px;
+    left:-153px;
+    cursor: pointer;
+}
+
+
+.btn_16081702{
+    position:absolute;
+    top:420px;
+    left:-84px;
+    cursor: pointer;
+}
+
+.btn_16081703{
+    position:absolute;
+    top:420px;
+    left:-15px;
+    cursor: pointer;
+}
+
+
+/* get started */
+.btn_16081704{
+    position:absolute;
+    top:311px;
+    left:727px;
+    cursor: pointer;
+}
+
+/*background is biggest screen size */
+.image_container_0822_mobile{
+    background: url('/asset/images/160817-dorco-mobile-bg1.jpg') no-repeat center 0;
+    width: 414px !important;
+    height: 324px;
+    position: relative;
+}
+
+.mobile_content_box01{
+    width: 94%;
+    height: 255px;
+    position: relative;
+    top: 7%;
+    margin: 0 auto;
+    padding: 3%;
+    left: -13%;
+
+
+}
+.mobile-text1{
+    position: absolute;
+    width: 66% !important;
+    top: 1.0%;
+    left: 20%;
+}
+.mobile-text2{
+    position: absolute;
+    width: 75% !important;
+    top: 15.3%;
+    left: 15%;
+}
+
+
+
+.video_box_0822_mobile{
+
+    background: rgba(255,255,255,0);
+    -pie-background: rgba(255,255,255,0);
+    border-style: none;
+    border-radius: 0px;
+    z-index: 62;
+    margin-bottom: -5px;
+    position: absolute;
+    top: 3.3%;
+    left: 8%;
+
+}
+.video_box_0822_mobile_border{
+    position: absolute;
+    width: 100% !important;
+    top: 3.0%;
+    left: 5.5%;
+}
+
+.mobile-btn1{
+    position: absolute;
+    width: 40% !important;
+    top: 95.2%;
+    left: 33%;
+}
+
+.youtube_container01{
+    width: 280px;
+    height: 153px;
+    top: 24%;
+    left: 13%;
+    position: absolute;
+
+}
+.youtube_iframe01{
+    width: 104%;
+    height: 90%;
+    margin-left: -1px;
+    margin-top: 5px;
+}
+
+.container_ipad01{
+    display: none;
+    width: 100px;
+    height: 10px;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    padding: 40px 0;
+    top: 407px;
+    position: absolute;
+
+}
+
+.btn_cta_ipad{
+    border: 1px solid #fc740e;
+    line-height: 2;
+    display: inline-block;
+    font-weight: 700;
+    font-family: "Univers LT W01_65 Bold";
+    background: #fc740e;
+    color: #fff;
+    font-size: 20px;
+    width: 280px;
+    border-radius: 6px;
+}
+
+/* begin wild */
+
+.cms-home-eve-c .col1-layout .main {
+    width: 100%;
+    max-width: inherit;
+}
+
+.cms-home-eve-c .breadcrumbs {display:none;}
+
+/* end wild */
+
+</style>
+

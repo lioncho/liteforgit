@@ -1,0 +1,194 @@
+
+
+/**
+ * This file is a container for custom CSS. You can use it to override the default styles of the theme.
+ *
+ * 1. Copy the file "SAMPLE.custom.css" and rename it to "custom.css".
+ *    Otherwise this file will not be loded by Magento.
+ * 2. Enable it in the admin panel.
+ * 3. Uncomment slected sample styles or add your own CSS to override the default styles of the theme.
+ *
+ * Please refer to the user guide for more details.
+ *
+ */
+
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!
+*/
+.header-top-container {display:none!important;}
+.cms-index-index .header-container {position:static;}
+/*.navmain-container.template .nav {background:#73DAD2;}*/
+.headerAccount {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+.header3 .logo {max-width: 235px;}
+.header3 .navmain-container.template {background-color: #2a2a2a!important;padding: 11px 0!important;}
+.navmain-container.template .nav {background:none!important;}
+
+
+.nav-container #nav {background: none;}
+
+
+.header3 #mega-nav > li > a,
+.header3 .nav-container #nav > li > a {color:#dfdfdf; border:none;}
+
+.header3 .nav-container #nav > li.active > a,
+.header3 #mega-nav > li > a:hover,
+.header3 .nav-container #nav > li > a:hover { color:#dfdfdf!important; background:none;}
+
+
+.header3 #mega-nav > li > a span,
+.header3 .nav-container #nav > li > a span {position:relative;padding-bottom:6px}
+
+
+.header3 .nav-container #nav > li.active > a span:before,
+.header3 #mega-nav > li > a span:before,
+.header3 .nav-container #nav > li > a span:before {
+    content: "";
+    position: absolute;
+    
+    border-top: 1px solid #dfdfdf;
+    bottom: 0;
+    left: 50%;
+	width: 0;
+	-webkit-transition: all 0.2s ease;
+-moz-transition: all 0.2s ease;
+-ms-transition: all 0.2s ease;
+-o-transition: all 0.2s ease;
+transition: all 0.2s ease;
+	}
+
+.header3 .nav-container #nav > li.active > a span:before,
+.header3 #mega-nav > li > a:hover span:before,
+.header3 .nav-container #nav > li > a:hover span:before {
+	left: 0;
+	width: 100%;
+	-webkit-transition: all 0.2s ease;
+-moz-transition: all 0.2s ease;
+-ms-transition: all 0.2s ease;
+-o-transition: all 0.2s ease;
+transition: all 0.2s ease;
+}
+
+
+.toplinks-inner {display:none!important;}
+/*.toplinks.headerAccount .dropdown-toggle		{background: url(../images/icon-group.png) no-repeat -32px 8px #f4f4f4;}
+.toplinks.headerAccount .dropdown-toggle:hover	{background: url(../images/icon-group.png) no-repeat -32px -25px #891a1c;}
+.shopping_cart .icon-cart						{background: url(../images/icon-group.png) no-repeat -70px 8px #f4f4f4;}
+.shopping_cart .icon-cart:hover					{background: url(../images/icon-group.png) no-repeat -70px -24px #891a1c;}*/
+
+.toplinks.headerAccount .dropdown-toggle,	
+.shopping_cart .icon-cart,
+.toplinks.headerAccount .dropdown-toggle:hover,
+.shopping_cart .icon-cart:hover {
+border-radius:100%!important;
+background:#dfdfdf!important;
+background-image:none!important;	
+width: 36px!important;
+height: 36px!important;
+text-align:center!important;
+font-size:21px!important;
+color:#000!important;}
+
+.shopping_cart .icon-cart:before,
+.header3 .search-cart .dropdown-toggle.cover:before {    font-family: FontAwesome;    line-height: 36px;    font-size: 21px;}
+
+.shopping_cart .icon-cart:before {content: "\f07a";}
+.header3 .search-cart .dropdown-toggle.cover:before {content: "\f007";}
+
+
+.dropdown-toggle .value:after {content:none;}
+.header3 .navmain-container {padding:0px;}
+.header3 .shopping_cart .icon-cart {
+
+}
+.header3 .shopping_cart .dropdown-toggle .count {background:#891a1c;}
+.toplinks.headerAccount .dropdown-menu{
+	min-width:125px;
+	top:36px;
+}
+
+.toplinks.headerAccount .dropdown-menu{margin-left: -105px; line-height: 40px;}
+.toplinks.headerAccount:hover .dropdown-menu{ margin-left: -155px; }
+.header3 .search-cart {line-height: normal;}
+
+
+/*LOG IN POPUP */
+#magestore-create-user {padding-left: 0px;padding-right: 33px;}
+#magestore-popup .border-popup {box-sizing: border-box;}
+#magestore-login-social {width: 37%;}
+.sociallogin-field {width: 48%;}
+.sociallogin-field.email {width:100%;}
+.sociallogin-field.email #socialogin.email {clear: both;display: block;max-width: 100%;}
+
+
+
+@media only screen and  (max-width: 1279px) {
+	.toplinks.headerAccount:hover .dropdown-menu {
+    margin-left: -105px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) { 
+	.nav .grid_3 {    width: 23%!important;}
+}
+
+@media only screen and (max-width: 767px) {
+	.header3 .nav-container a {color:#fff;}
+	.header3 .navmain-container.template {padding:0!important;}
+	.nav-container #nav {background:#2A2A2A;}
+	.header3 .logo {    margin: 10px auto 0;}
+	.sociallogin-field {width: 48% !important;}
+	#magestore-login-social {width:100%!important;}
+}
+
+@media only screen and (max-width: 479px) {
+.header3 .search-cart{width: initial;}
+.header3 .shopping_cart {    margin: 7px;}
+#magestore-login-social {width:100%!important;}
+#magestore-create-back {margin-left:0;}
+#magestore-button-sociallogin-create {margin-left: 30%!important;}
+}
+
+#sociallogin-other-a-popup {display:none!mportant;}
+#magestore-login-social .magestore-login-social {width:100%;}
+
+
+/*LOG IN */
+#magestore-create-user {padding-left: 0px;padding-right: 33px;}
+#magestore-popup .border-popup {box-sizing: border-box;}
+#magestore-login-social {width: 37%;}
+.sociallogin-field {width: 48%;}
+.sociallogin-field.email {width:100%;}
+.sociallogin-field.email #socialogin.email {clear: both;display: block;max-width: 100%;}
+button.bt-login-social span span {padding-left: 0px !important;text-align: center;}
+#sociallogin_button ul li.button, .sociallogin-other ul li {float:none !important;}
+/*One Step Check Out*/
+.one-step-checkout {max-width: 500px;margin: 0 auto;float: none !important;}
+.one-step-checkout .address-order {}
+.one-step-checkout .address-info-3-columns,
+.one-step-checkout .onestepcheckout-shipping-payment-review,
+.one-step-checkout .column-last {width: 100% !important;}
+.one-step-checkout .address-info-3-columns {}
+.one-step-checkout .onestepcheckout-shipping-payment-review {}
+.one-step-checkout .column-last {}
+.card-type {width:30px;}
+#billing-new-address-form .two-fields {position: relative;}
+#valid_email_address_image {position: absolute;top: 30px;right: 10px;}
+#advice-validate-cc-cvn-gene_braintree_creditcard_cc_cid {position: absolute;}
+
+.registered-users  #sociallogin_button {}
+.registered-users  #sociallogin_button li.button {padding-left: 0px;display: block;text-align: left;}
+
+
+#viewDialog_top {padding-top: 15px;}
+.amschekcout_close {right: 0!important;}
+
+#bg_fade #packed-products-table {display:none;}
+

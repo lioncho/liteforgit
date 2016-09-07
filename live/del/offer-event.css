@@ -1,0 +1,64 @@
+<style>
+@font-face{font-family:'bebasregular';src:url('/asset/font/bebas-webfont.eot');src:url('/asset/font/bebas-webfont.eot?#iefix') format('embedded-opentype'),
+url('/asset/font/bebas-webfont.woff2') format('woff2'),
+url('/asset/font/bebas-webfont.woff') format('woff'),
+url('/asset/font/bebas-webfont.ttf') format('truetype'),
+url('/asset/font/bebas-webfont.svg#bebasregular') format('svg');font-weight:normal;font-style:normal;}
+.page-title h1{font-family:'bebasregular';font-size:30px;color:#8d191c; line-height: 1.2;}
+.page-title h1:after{background:none;}
+.offer_wrap{clear:both;border:1px solid #dbdbdb;margin-bottom:30px;}
+.offer_left_img{    position: relative;}
+.offer_left_img .imgLabel {     position: absolute; left: -6px;
+    top: -6px;
+    width: 162px;
+    height: 145px;
+    z-index: 9;
+    text-indent: -9999px;}
+.offer_left_img .newOffer {background: url("/asset/images/offer-ribbon_new.png");}
+.offer_left_img .endOffer {background: url("/asset/images/offer-ribbon_end.png");}
+
+
+
+.offer_left_img img{    width: 100%;}
+.offer_right_content{}
+.offer_right_content_warp{padding-top:15px;letter-spacing:-0.1px;}
+.offer_right_content_warp p{font-size:15px;line-height:1.4;/*max-width:440px;*/;padding-right: 40px;}
+.offer_right_content_warp p i.fa{font-size:12px;}
+.offer_right_content_warp a{font-size:17px;font-family:'Univers LT W01_65 Bold';text-decoration:underline;}
+.offer_right_content_warp a span{color:#8d191c}
+.offer_btn_wrap{margin-top:20px;}
+.offer_btn_wrap button{font-size:15px;font-family:'bebasregular';margin:0 12px;min-width:180px;}
+.offer_btn_wrap button:first-child{margin-left:0px;}
+.offer_btn_wrap button span{background:#8d191c;border:1px solid #891a1c;width:100%;}
+.offer_btn_wrap button.close span{background:#7e7c7c;border:1px solid #7e7c7c;}
+.offer_btn_wrap button span span{border:none;}
+.offer_btn_wrap button:hover span{background:#fff;color:#8d191c;}
+
+
+@media only screen and (min-width: 959px) and (max-width: 1024px) {
+    .offer_right_content_warp p {line-height: 1.2;}
+    .offer_btn_wrap {
+        margin-top: 8px;
+    }
+}
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+    .offer_btn_wrap {text-align:center;}
+    .offer_btn_wrap button {    margin: 0 10px 20px;}
+    .offer_right_content_warp {
+        padding: 10px;}
+    .offer_right_content_warp p {    max-width: 100%;}
+}
+
+@media only screen and (max-width: 767px) {
+    .offer_btn_wrap {text-align:center;}
+    .offer_btn_wrap button {    margin: 0 10px 20px;}
+    .offer_right_content_warp {
+        padding: 10px;}
+    .offer_right_content_warp p {    max-width: 100%;}
+}
+
+
+.end-offer{padding-top:20px;}
+.end-offer p{font-size:13px;}
+.end-offer p.title{font-size:15px;font-weight:bold;color:#8d191c;margin-bottom:10px;}
+</style>

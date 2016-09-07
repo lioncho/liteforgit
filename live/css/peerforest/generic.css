@@ -1,0 +1,169 @@
+
+/* ********************************************************************************************
+	Full Width Elements (Div under container display in full width) 
+*********************************************************************************************** */
+
+.alt-bg{
+	width: 100%;
+	max-width: 100%;
+}
+
+.alt-bg{
+	margin-left: -180px!important;
+	padding-left: 180px;
+	padding-right: 180px;
+}
+
+/* Full Width Elements Responsive */
+@media only screen and (min-width: 1200px) {
+	.alt-bg{
+		padding-left: 180px;
+		padding-right: 180px;
+	}
+}
+
+@media only screen and (min-width: 1500px) {
+	.alt-bg{
+		margin-left: -720px!important;
+		padding-left: 720px;
+		padding-right: 720px;
+	}
+}
+
+@media only screen and (min-width: 1980px) {
+	.alt-bg{
+		margin-left: -820px!important;
+		padding-left: 820px;
+		padding-right: 820px;
+	}
+}
+
+/* ********************************************************************************************
+	Section Heading
+*********************************************************************************************** */
+
+/* Style For Section Title & Page Title Box */
+.section-title,
+.page-title{margin-top: 0;position: relative;margin-bottom: 20px;clear: both;position: relative;}
+
+
+
+/* Style For Section Title & Page Title */
+.section-title > *,
+.page-title > *{margin-bottom: 0px;}
+
+.section-title h2{text-transform: uppercase;font-size: 18px;font-weight: bold;line-height: 26px;}
+.section-title h2:after{content: "";background: #6fc138;height: 3px;width: 35px;/*position: absolute;left: 0;top: 42px;*/display: block;margin-top: 5px;}
+.section-title.padd-right{padding-right: 60px;}
+
+/* Common hr */
+.section-hr{clear: both;display: block;font-size: 0;line-height: 0;height: 0;margin: 0 0 10px;padding: 10px 0 0;background: none;border-bottom: 1px solid #e6e6e6;text-indent: -9999em;overflow: hidden;}
+.horizontal-break {height: 2px;width: 50px;margin: 20px auto 25px;background-color: #e6e6e6;}
+
+
+/* Secondary headings =========================================================== */
+
+/* Fieldset and multiple checkout */
+.fieldset .legend,
+.multiple-checkout .col2-set h2.legend,
+.info-set h2.legend,
+.multiple-checkout h2,
+
+/*Blog Tital*/
+/*.postTitle h2,*/
+  
+  
+/* Account headings =========================================================== */
+
+/* Primary */
+.box-account .box-head h2,
+.order-items h2.table-caption,
+.order-items h2.sub-title,
+.order-items .order-comments h2{font-size: 18px;line-height: 24px;border-bottom: 1px solid #e6e6e6;padding-bottom: 10px;}
+
+/* Secondary */
+.dashboard .box .box-title h3,
+.dashboard .box .box-title h4,
+.order-info-box h2,
+.addresses-list h2{font-size: 16px;line-height: 20px;font-weight: bold;}
+
+/* Third */
+.dashboard .box-info h4,
+.addresses-list h3{font-size: 14px;line-height:18px;}
+
+
+/* ********************************************************************************************
+	Vertically Centered
+*********************************************************************************************** */
+
+/* Vertically aligned content */
+.v-centered-content {
+	display:table;
+}
+.v-centered-content .v-center {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+/* Vertically aligned grid */
+.v-grid-container {
+	display:table;
+	width:100%;
+}
+.v-grid {
+	float:none;
+	display:table-cell;
+	vertical-align:middle;
+}
+.product-tabs-content .v-grid-container{
+	display: table;
+	width: 100%;
+}
+.product-tabs-content .v-grid{
+	float:none;
+	display:table-cell;
+	vertical-align:middle;	
+}
+
+
+/* ********************************************************************************************
+	Vertical links
+*********************************************************************************************** */
+
+.links > li > a { padding:0 5px;} 
+.links > li > a:hover{color: #6fc138;}
+
+/* Basic links, no separators */
+.links > li { vertical-align: middle;}
+.links > li > a { display:block;}
+
+/* Links With Separators (Position Right) */
+.links-separators .links > li { margin-left:-3px;border-right: 1px solid;line-height: 9px; }
+.header-top .links-separators .links > li{border-right: 2px solid #393939;border-left:2px solid #151515;line-height: 18px;}
+.header-top .links-separators .links > li.first{border-left: none;}
+.mega-block .links > li {display: inline-block; }
+.links-separators .links > li > a {padding: 0 10px; }
+.links-separators .links > li.last {border-right: none; }
+.links-separators .links > li.last > a{padding-right: 0px;}
+.links-separators .links > li.first > a{}
+.links-separators .links > li.hide-separator {border-right: none;}
+.links-separators .links > li.separator-left > a { border-left: 1px solid ;border-right: none;}
+
+/* Links With Separators (Position Left) */
+.links-separators-left .links > li { margin-left:-3px; border-left: 1px solid;}
+.links-separators-left .links > li > a {padding: 0 10px;}
+.links-separators-left .links > li.first{border-left: none; }
+.links-separators-left .links > li.first > a {padding-left: 0px;}
+.links-separators-left .links > li.hide-separator > a { border-left: none; }
+.links-separators-left .links > li.separator-right > a { border-right: 1px solid;border-left: none; }
+
+
+/* ********************************************************************************************
+	Hide Elements
+*********************************************************************************************** */
+
+/* Hide element if screen width is lower than the width specified in the class name */
+.hide-below-1680 { display:none !important; }
+.hide-below-1440 { display:none !important; }
+.hide-below-1360 { display:none !important; }
+.hide-below-1280 { display:none !important; }

@@ -1,0 +1,47 @@
+<style>
+
+    .mobile_switcher_large {display:block;}
+    .mobile_switcher_small {display:none;}
+    @media only screen and (max-width: 768px) {
+        .mobile_switcher_large{display:none;}
+        .mobile_switcher_small{display:block;}
+    }
+</style>
+<div class="blog_top_banner">
+    <img src="/asset/images/dorco_community_top_banner.jpg" class="mobile_switcher_large">
+    <!--<img src="/asset/images/0617_top_banner_mobile.jpg" class="mobile_switcher_small">-->
+
+</div>
+<ul class="com-top-menu clearfix">
+    <li><a href="/community/press-office/"><span>PRESS OFFICE</span></a></li>
+    <li><a href="/community/product-reviews/"><span>PRODUCT REVIEWS</span></a></li>
+    <li><a href="/community/dorcoblog"><span>DORCO BLOG</span></a></li>
+</ul>
+
+
+<!--
+<ul>
+  <li style="background: url('https://www.razorsbydorco.co.uk/media/wysiwyg/product-reviews.jpg') no-repeat;"><a href="{{config path="web/secure/base_url"}}community/product-reviews/"><span class="block-title">Product Reviews</span></a></li>
+  <li style="background: url('https://www.razorsbydorco.co.uk/media/wysiwyg/media-center.jpg') no-repeat;"><a href="{{config path="web/secure/base_url"}}community/media-center/"><span class="block-title">Media Center</span></a></li>
+  <li style="background: url('https://www.razorsbydorco.co.uk/media/wysiwyg/latest-news.jpg') no-repeat;"><a href="{{config path="web/secure/base_url"}}community/latest-news/"><span class="block-title">Latest News</span></a></li>
+</ul>-->
+<script type="text/javascript">// <![CDATA[
+j$('#dorco_slider').owlCarousel({
+    itemsCustom : [
+        [0, 1],
+        [450, 3]
+    ], //break point for single item at mobile portrait
+    navigation : true,
+    pagination: false,
+    rewindNav:false,
+    navigationText: ["", ""],
+    addClassActive:true
+}) // set Razor slide with Responsive
+
+j$(document).scroll(function() {
+    //console.log(j$('body').scrollTop());
+    if (j$('body').scrollTop() >0 && j$('body').scrollTop() <350) j$('#dorco_slider.owl-theme .owl-controls .owl-buttons div').show();
+    else j$('#dorco_slider.owl-theme .owl-controls .owl-buttons div').hide();
+});
+// ]]></script>
+<script type="text/javascript" src="/asset/js/retina.js"></script>

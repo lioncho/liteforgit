@@ -1,0 +1,236 @@
+
+
+/* ********************************************************************************************
+    Tabs
+*********************************************************************************************** */
+
+ul.resp-tabs-list{
+    margin: 0px;
+    padding: 0px;
+}
+
+.resp-tabs-list li {
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin: 0;
+    list-style: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-top-width: 3px;
+    float: left;
+    border-bottom: none;
+    color: #999999;
+    background: #f6f6f6;
+    border-right: 1px solid #FFFFFF;
+    letter-spacing: 0;
+}
+
+h2.resp-accordion,
+.resp-tabs-list li{
+    color: #999999;
+}
+
+.resp-tabs-list li.resp-tab-active,
+h2.resp-accordion,
+h2.resp-tab-active{
+    border-color: #891a1c;
+}
+.resp-tabs-list li.resp-tab-active,
+h2.resp-tab-active{
+    border-top-color: #6fc138;
+}
+
+
+.resp-tabs-list li.resp-tab-active,
+h2.resp-tab-active,
+.resp-tabs-list li.resp-tab-active:hover,
+h2.resp-tab-active:hover{
+    color: #6fc138;
+    background: #FFFFFF;
+}
+
+
+.resp-tabs-list li:hover{background: #6fc138;color: #FFFFFF; }
+
+.resp-tab-active {
+    margin-bottom: -1px !important;
+    padding: 15px 20px 16px!important;
+    background-color: #FFF;
+}
+.resp-tabs-container {
+    padding: 0px;
+    clear: left;
+}
+
+h2.resp-accordion {
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+}
+
+.resp-tab-content {
+    display: none;
+    padding: 20px;
+}
+
+
+.resp-content-active, .resp-accordion-active {
+    display: block;
+}
+
+.resp-tab-content {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #891a1c;
+}
+.resp-tab-content > h2:first-child{
+    display: none;
+}
+
+h2.resp-accordion {
+    font-size: 16px;
+    border-style:solid;
+    border-width: 0px;
+    border-top-width: 1px;
+    margin: 0px;
+    padding: 9px 0px;
+}
+
+h2.resp-tab-active {
+    padding: 9px 0px !important
+}
+
+h2.resp-tab-title:last-child {
+    border-bottom: 12px solid #e6e6e6 !important;
+    background: blue;
+}
+
+
+/* Vertical tabs ======================================================= */
+
+.resp-vtabs ul.resp-tabs-list {
+    float: left;
+    width: 30%;
+}
+
+.resp-vtabs .resp-tabs-list li {
+    display: block;
+    padding: 15px 15px !important;
+    margin: 0;
+    cursor: pointer;
+    float: none;
+}
+
+.resp-vtabs .resp-tabs-container {
+    padding: 0px;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    float: left;
+    width: 68%;
+    min-height: 250px;
+    border-radius: 4px;
+    clear: none;
+}
+
+.resp-vtabs .resp-tab-content {
+    border: none;
+}
+
+.resp-vtabs li.resp-tab-active {
+    border: 1px solid #e6e6e6;
+    border-right: none;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    margin-right: -1px !important;
+    padding: 14px 15px 15px 14px !important;
+}
+
+.resp-arrow {
+    font-family: FontAwesome;
+    float: right;
+    margin-top: 4px;
+    background-color: #252525;
+    color: #FFF;
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: normal;
+    border-radius: 3px;
+}
+
+h2.resp-tab-active span.resp-arrow,
+.resp-arrow:hover{
+    background-color: #6fc138;
+    color: #fff;
+}
+
+
+/* Gen tabs ======================================================= */
+.gen-tabs li{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+}
+.gen-tabs li.active,
+.gen-tabs li:hover{color: #6fc138;text-decoration: underline;}
+
+
+.gen-tabs span{display: inline-block;}
+.gen-tabs span{padding: 0 10px;}
+.gen-tabs span:last-child{display: none;}
+
+
+/* Accordion styles ======================================================= */
+
+h2.resp-tab-active {}
+.resp-easy-accordion  h2.resp-accordion {display: block;}
+.resp-easy-accordion .resp-tab-content {}
+.resp-easy-accordion .resp-tab-content:last-child {}
+
+.resp-jfit {width: 100%;margin: 0px;}
+.resp-tab-content-active {display: block;}
+h2.resp-accordion:first-child {}
+
+/*Here your can change the breakpoint to set the accordion, when screen resolution changed */
+@media only screen and (max-width: 768px) {
+    ul.resp-tabs-list {
+        display: none;
+    }
+    h2.resp-accordion {
+        display: block;
+	background-color: transparent !important;
+    }
+
+    .resp-vtabs .resp-tab-content {
+        border: 1px solid #e6e6e6;
+    }
+    .resp-tab-content{
+	padding: 6px 0px 15px;
+	border: none;
+	background-color: transparent !important;
+    }
+    .resp-vtabs .resp-tabs-container {
+        border: none;
+        float: none;
+        width: 100%;
+        min-height: initial;
+        clear: none;
+    }
+    .resp-accordion-closed {
+        display:none !important;
+    }
+    .resp-vtabs .resp-tab-content:last-child {
+        border-bottom: 1px solid #e6e6e6 !important;
+    }
+}
+
+/* Product 3 Coulmn */
+.col3-layout ul.resp-tabs-list{display: none;}
+.col3-layout h2.resp-accordion {display: block;}
+.col3-layout .resp-tab-content{border-top-width: 0px;padding: 6px 0px 15px;border: none;}

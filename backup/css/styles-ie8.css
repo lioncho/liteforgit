@@ -1,0 +1,72 @@
+
+
+/* ********************************************************************************************
+    Internet Explorer: less than or equal 8
+*********************************************************************************************** */
+
+/* Hide element if screen width is lower than the width specified in the class name */
+.ie8 .hide-below-1680 { display:inherit !important; }
+.ie8 .hide-below-1440 { display:inherit !important; }
+.ie8 .hide-below-1360 { display:inherit !important; }
+.ie8 .hide-below-1280 { display:inherit !important; }
+
+
+/* ********************************************************************************************
+    Borders instead of dropdown shadows
+*********************************************************************************************** */
+
+.remember-me-popup,
+.map-popup,
+.tool-tip { border:1px solid #D9D9D9; }
+
+#mega-nav div.mega-block,
+#mega-nav .megamenu-vertical ul.subs,
+.nav-container #nav li ul.level0{border-left:1px solid #D9D9D9;border-right:1px solid #D9D9D9;border-bottom: 1px solid #D9D9D9;}
+.nav-container #nav li ul li ul,
+#mega-nav .megamenu-vertical ul.subs ul,
+.block.block-sidenav #mega-nav div.mega-block{border-top:1px solid #D9D9D9;border-right:1px solid #D9D9D9;border-bottom: 1px solid #D9D9D9;border-left: none;}
+
+/* Forms */
+select,
+input.input-text, textarea{padding: 10px;}
+input.input-text{line-height: 40px !important;}
+
+
+/* ********************************************************************************************
+    DropDown
+*********************************************************************************************** */
+
+#mega-nav .megamenu-vertical ul.subs ul,
+#mega-nav div.mega-block,
+.nav-container #nav ul,
+.dropdown-menu{display: none;visibility: inherit;opacity: 1;moz-opacity: 1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";filter: alpha(opacity=100);pointer-events: all;}
+#mega-nav .megamenu-vertical ul.subs li:hover > ul,
+#mega-nav li:hover div.mega-block,
+.nav-container #nav li:hover > ul,
+.dropdown:hover .dropdown-menu{opacity: 1;-moz-opacity: 1;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";filter: alpha(opacity=100); pointer-events: all;display: block;}
+
+
+/* ********************************************************************************************
+    Category Page Toolbar
+*********************************************************************************************** */
+
+.sorter .sort-by{min-width: 155px;}
+.sorter .limiter{min-width: 100px;}
+
+
+/* ********************************************************************************************
+    Buttons
+*********************************************************************************************** */
+
+.buttons-set .back-link a,
+button.button span span{white-space: nowrap;}
+
+
+/* ********************************************************************************************
+    Mobile accordion blocks (Disable For IE 8)
+*********************************************************************************************** */
+
+.mobile-accordion .block-title{border-bottom: none !important;}
+.mobile-accordion .block-content { display: block !important; }
+.mobile-accordion .opener { display: none !important; }
+

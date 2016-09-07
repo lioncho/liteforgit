@@ -1,0 +1,81 @@
+
+
+/* ********************************************************************************************
+    Side Nav ( Display Only Desktop Width )
+*********************************************************************************************** */
+
+.block.block-sidenav{background-color: #FBFBFB;border: 1px solid #EAEAEA;}
+.block.block-sidenav .sidenav-title{background-color: #6fc138;line-height: 26px;position: relative;font-size: 18px;clear: both;text-transform: uppercase;color: #FFFFFF;padding: 14px 20px;border-bottom: 1px solid #EAEAEA;}
+.block.block-sidenav .sidenav-title .fa{margin-right: 15px;}
+.block.block-sidenav .sidenav-content{}
+
+/* Sidenav Popup */
+.block.block-sidenav #mega-nav div.mega-block{
+    width: 900px;
+    top: 0;
+    padding: 10px;
+    left: 100% !important;
+    border-top-width: 0px;
+    border-left-width: 3px;
+    max-width: none !important;
+    box-sizing:         border-box;
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;    
+}
+
+.block.block-sidenav #mega-nav .megamenu-vertical .mega-block{
+    padding: 0px;
+}
+.block.block-sidenav #mega-nav .megamenu-vertical ul {
+    border-top-width: 0px;
+}
+
+/* First Level */
+.block.block-sidenav #mega-nav {
+    height: auto;
+    float: none;
+}
+.block.block-sidenav #mega-nav > li{
+    position: relative;
+    float: none;
+    padding-bottom: 0px;
+}
+.block.block-sidenav #mega-nav > li > a{
+    border-bottom: 1px solid #EAEAEA;
+    padding: 15px;
+    font-size: 15px;
+    color: #555555;
+    font-weight: normal;
+    text-transform: capitalize;
+    background-color: transparent;
+    border-top: none;
+}
+
+.block.block-sidenav #mega-nav > li > a:before{
+    display: none;
+}
+
+.block.block-sidenav #mega-nav > li:hover > a{
+    background-color: #6fc138;
+    color: #FFFFFF;
+}
+.block.block-sidenav #mega-nav > li:last-child > a{
+    border-bottom: none;
+}
+.block.block-sidenav #mega-nav > li.parent > a:before{
+    display: none;
+}
+.block.block-sidenav #mega-nav > li.parent > a:after{
+    content: "\f0da";
+    font-family: FontAwesome;
+    float: right;
+    color: #888888;
+}
+.block.block-sidenav #mega-nav > li.parent:hover > a:after{
+    color: #FFFFFF;
+}
+
+
+

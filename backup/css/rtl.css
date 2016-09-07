@@ -1,0 +1,1033 @@
+
+
+/* ********************************************************************************************
+	Reset
+*********************************************************************************************** */
+
+body{direction: rtl;unicode-bidi: embed;}
+
+/* Tools */
+.a-left       { text-align:right !important; }
+.a-right      { text-align:left !important; }
+.f-left,
+.left         { float:right !important; }
+.f-right,
+.right        { float:left !important; }
+
+/* ********************************************************************************************
+	Layout
+*********************************************************************************************** */
+
+.page,
+.page-print,
+.page-empty,
+.page-popup {text-align: right;}
+
+/* Base Columns */
+.col-left { float:right; }
+.col-main { float:right; }
+.col-right { float:left; }
+.category-right .col-left{float: left;}
+
+/* 1 Column Layout */
+.col1-layout .col-main {}
+
+/* 2 Columns Layout */
+.col2-left-layout .col-main { float:left; }
+.col2-right-layout .col-main {}
+.category-right .col-main{float: right;}
+
+/* 3 Columns Layout */
+.col3-layout .col-main {}
+.col3-layout .col-wrapper { float:right; }
+.col3-layout .col-wrapper .col-main { float:left; }
+
+/* Content Columns */
+.col2-set .col-1 { float:right; }
+.col2-set .col-2 { float:left;}
+
+.col3-set .col-1 { float:right;}
+.col3-set .col-2 { float:right; margin-left:0%;margin-right: 2%; }
+.col3-set .col-3 { float:left;}
+
+.col4-set .col-1 { float:right;}
+.col4-set .col-2 { float:right;}
+.col4-set .col-3 { float:right;}
+.col4-set .col-4 { float:left;}
+
+/* ********************************************************************************************
+	Global Styles
+*********************************************************************************************** */
+
+/* Form Elements */
+input.radio { margin-right:0px; margin-left: 3px;}
+input.checkbox { margin-right:0px; margin-left: 3px;}
+
+
+/* ********************************************************************************************
+	Form lists
+*********************************************************************************************** */
+
+/* Grouped fields */
+.form-list label{float: right;padding-right: 0px;padding-left: 5px;}
+.form-list label.required em{float: left;left: -8px;right: auto}
+.form-list li.control input.radio,
+.form-list li.control input.checkbox { margin-right:0px;margin-left: 6px; }
+
+/* Buttons set */
+.buttons-set button.button{float: left;}
+.buttons-set .back-link{float: right;}
+
+.contacts-index-index .buttons-set button.button{float: right;}
+.contacts-index-index .buttons-set .required { text-align:right; }
+
+/* Orders and Returns form */
+#oar_widget_orders_and_returns_form .buttons-set button { float: right; }
+#oar_widget_orders_and_returns_form .buttons-set .required { text-align: right; }
+
+/* Form Validation */
+p.required {text-align:left; }
+/* Expiration date and CVV number validation fix */
+.v-fix { float: right; }
+.v-fix .validation-advice{margin-left:-12em;margin-right:0em;}
+
+
+/* ********************************************************************************************
+	Global Messages
+*********************************************************************************************** */
+
+.error-msg,
+.success-msg,
+.note-msg,
+.notice-msg{background-position: 98% center !important;padding: 26px 70px 26px 25px !important;}
+
+
+/* ********************************************************************************************
+	BreadCrumbs
+*********************************************************************************************** */
+
+
+
+/* ********************************************************************************************
+	Page Heading
+*********************************************************************************************** */
+
+.title-buttons{text-align: left;}
+.title-buttons h1, .title-buttons h2, .title-buttons h3, .title-buttons h4, .title-buttons h5, .title-buttons h6{float: right;text-align: right;}
+
+
+/* ********************************************************************************************
+	Toolbar
+*********************************************************************************************** */
+
+/* Pager */
+.pager .pages li{float: right;}
+
+/* Item Elements */
+.sorter .item-left, .pager .item-left{float: right;text-align: right;margin-right: 0px;margin-left: 20px;}
+.sorter .item-right{float: left;margin-left: 0px;margin-right: 20px;}
+
+.sort-by select,
+.limiter select{margin: 0px 5px 0px 0px;}
+
+.sort-by a{margin-right: 5px;}
+
+
+/* ********************************************************************************************
+	Data Table
+*********************************************************************************************** */
+
+.data-table th,
+.data-table td{text-align: right !important;}
+.data-table tfoot tr td{text-align: left !important;}
+.data-table tfoot td.last{text-align: right !important;}
+
+
+/* ********************************************************************************************
+	Lists
+*********************************************************************************************** */
+
+/* Disc */
+ul.disc{padding-right: 1.5em;padding-left: 0em;}
+
+/* Bullet */
+ul.bullet li a:before{float: right;margin-right: 0px;margin-left: 6px;content: "\f0d9";}
+
+
+/* ********************************************************************************************
+	Custom banners
+*********************************************************************************************** */
+
+.page-banners .banner p{text-align: right;}
+
+
+/* ********************************************************************************************
+	Header container
+*********************************************************************************************** */
+
+.header .item-left{float: right;margin-left: 15px;margin-right: 0px;}
+.header .item-right{float: left;margin-right: 15px;margin-left: 0px;}
+.header .dropdown{float: left;}
+.header .shopping_cart{margin-left: 0px;margin-right: 15px;}
+.fa.marright5{margin-left: 5px !important;margin-right: 0px !important;}
+
+.top-links{text-align: right;}
+.header .lang_cur{text-align: left;}
+.header .dropdown{float: none;}
+.form-search select{border-left: 1px solid #e6e6e6;border-right: none;}
+
+.mega-container{float: right;}
+.shopping_cart{float: left;margin-right: 0;margin-left: 30px;}
+.shopping_cart .dropdown-menu{right: auto;}
+.shopping_cart .icon-cart span.icon{padding-right: 0px;padding-left: 5px;}
+
+.header .dropdown{margin-left: 0;margin-right: -3px;}
+
+.header .toplinks.dropdown{border-left-width: 2px;border-right-width: 0px;}
+.header .currency.dropdown{border-right-width: 2px;border-left-width: 0px;}
+
+.login-register a{margin-left: 0px;margin-right: -3px;display: inline-block;vertical-align: middle;line-height: 19px;}
+.login-register .user-register{padding-right: 10px;border-right-width: 2px;padding-left: 0px;border-left-width: 0px;}
+
+.login-register .user-login .icon,
+.login-register .user-register .icon,
+.login-register .user-logout .icon{padding-left: 5px;padding-right: 0;}
+
+
+.compare-wishlist-box{text-align: left;}
+.compare-wishlist-box .wishlist,
+.compare-wishlist-box .compare{padding-left: 0;padding-right: 10px;}
+.compare-wishlist-box p.count{right: auto;left: -7px;}
+
+
+/* Mini Cart =============================================================== */
+
+/* Mini Cart Content */
+.shopping_cart .mini-products-list .product-name{padding-right: 0px;padding-left: 50px;}
+.shopping_cart .button-set{left: 0px;right: auto;}
+.shopping_cart .subtotal{text-align: left;}
+.shopping_cart .subtotal .label{float: right;}
+
+
+/* Form Search =============================================================== */
+
+.quick-search{float: right;}
+.form-search select{float: right;}
+.form-search .input-text{border-left-width: 1px;border-right-width: 0px;padding-right: 10px;padding-left: 46px;}
+.form-search .button{right: auto;left: 0;}
+
+
+/* **************************************************************************
+	Header Style 2
+***************************************************************************** */
+
+.header2 .logo{text-align: right;}
+.header2 .header .shopping_cart{margin-right: 0;padding-left: 0;padding-right: 10px;}
+.header2 .shopping_cart .dropdown-toggle .count{right: auto;left: -7px;}
+.header2 .shopping_cart .dropdown-menu{right: auto;}
+.header2 .mega-container{float: none;}
+
+
+/* **************************************************************************
+	Header Style 3
+***************************************************************************** */
+
+.header3 .logo{text-align: right;}
+.header3 .mega-container,
+.header3 .nav-container{float: left;}
+.header3 .shopping_cart .dropdown-menu{right: auto;}
+.header3 .quick-search:hover input{left: 0;}
+
+
+/* **************************************************************************
+	Header Style 4
+***************************************************************************** */
+
+.header4 .header .toplinks.dropdown{border-left-width: 1px;}
+.header4 .header .currency.dropdown{border-right-width: 1px;}
+.header4 .login-register .user-register{border-left-width: 0px;}
+.header4 .header .dropdown{border-left-width: 1px;border-right-width: 1px;}
+
+
+.header4 .call-compare{float: left;}
+.header4 .shopping_cart.dropdown{padding-left: 0px;padding-right: 10px;}
+.header4 .shopping_cart .dropdown-toggle .count{right: auto;left: -7px;}
+.header4 .shopping_cart .dropdown-menu{right: auto;}
+
+.header4 .compare-wishlist-box .wishlist, .header4 .compare-wishlist-box .compare{margin-left: 0px;margin-right: 15px;float: right;}
+.header4 .compare-wishlist-box .wishlist{margin-right: 0px;}
+
+
+/* **************************************************************************
+	Header Style 5
+***************************************************************************** */
+
+.header5 .logo{text-align: right;}
+.header5 .quick-search{border-left: 2px solid #393939;margin-left: -3px;border-right: none;margin-right: 0;}
+.header5 .shopping_cart.dropdown{border-left: none;border-right: 2px solid #151515;}
+.header5 .form-search .input-text{border-right-width: 1px;padding-left: 10px;}
+.header5 .shopping_cart{margin-right: 0px;}
+.header5 .shopping_cart .icon-cart{padding-left: 10px;}
+.header5 .shopping_cart .dropdown-menu{right: auto;}
+.header5 .quick-search:hover input{left: 0;}
+.header5 .mega-container,
+.header5 .nav-container{float: left;}
+.header5 .shopping_cart .dropdown-toggle .count{right: auto;left: 0px;}
+
+
+/* **************************************************************************
+	Header Style 6
+***************************************************************************** */
+
+
+.header6 .header .toplinks.dropdown{border-left-width: 1px;}
+.header6 .header .currency.dropdown{border-right-width: 1px;}
+.header6 .login-register .user-register{border-left-width: 0px;}
+.header6 .header .dropdown{border-left-width: 1px;border-right-width: 1px;}
+
+
+.header6 .shopping_cart.dropdown{border-right: 1px solid #e6e6e6;border-left: none;padding: 0 15px;}
+.header6 .shopping_cart .icon-cart{padding-left: 10px;}
+
+.header6 .shopping_cart .dropdown-menu{right: auto;}
+.header6 .quick-search:hover input{left: 0;}
+
+.header6 .form-search .input-text{padding-left: 10px;}
+
+
+/* **************************************************************************
+	Header Style 7
+***************************************************************************** */
+
+.header7 .call-compare{float: left;}
+.header7 .shopping_cart.dropdown{padding-left: 0px;padding-right: 10px;}
+.header7 .shopping_cart .dropdown-toggle .count{right: auto;left: -7px;}
+.header7 .shopping_cart .dropdown-menu{right: auto;}
+
+/* ********************************************************************************************
+	Sidebar
+*********************************************************************************************** */
+
+/* Blocks */
+.block .btn-remove,
+.block .btn-edit{float: left;margin-right: 10px;margin-left: 0px;}
+.block .actions{text-align: left;}
+.block .actions button.button{float: right;}
+.block .actions a { float:left; }
+
+/* Mini Products List */
+.mini-products-list .product-image{float: right;}
+.mini-products-list .product-details{text-align: right;margin-left: 0px;margin-right: 90px;}
+
+/* Block: Layered Navigation */
+.block-layered-nav li{text-align: right;}
+.block-layered-nav li a span:last-child{float: left;}
+
+
+#sidenav li a:before,
+.block-layered-nav #narrow-by-list li a:before,
+#mega-nav ul.subs li li a:before,
+#mega-nav .megamenu-vertical ul.subs li a:before,
+#side-nav > li > a:before,
+.block-account .block-content li a:before,
+.block-account li strong:before,
+.block-blog .block-content li a:before{content: "\f0d9";float: right;margin-left: 10px;margin-right: 0;}
+
+#sidenav li a:hover,
+.block-layered-nav .block-content li a:hover,
+.block-account .block-content li a:hover,
+.block-blog .block-content li a:hover{padding-left: 5px;padding-right: 10px;}
+
+#sidenav li a.show-cat:hover{padding: 0;}
+
+#sidenav li a,
+.block-layered-nav .block-content li a,
+.block-account .block-content li a,
+.block-blog .block-content li a{padding-left: 5px;}
+
+
+/* Block: Category Sidebar Navigation */
+
+/* List Active Icons */
+#sidenav li a.show-cat,
+#sidenav li.active > a.show-cat{left: 0;right: auto;}
+
+/* Block: Poll */
+.block-poll input.radio { float: right; margin: 4px 0px 0 -18px; }
+.block-poll .label { margin-left:0px;margin-right: 18px; }
+
+/* Block: Tags */
+.product-view .box-tags .form-add .input-box{float: right;margin: 0px 0px 5px 5px;}
+
+/* Block: Reorder */
+.block-reorder input.checkbox{float: right;}
+.block-reorder .product-name{margin-left: 0px;margin-right: 20px;}
+
+/* Block: Subscribe */
+.block-subscribe input{padding-left: 120px;padding-right: 10px;}
+
+.block-layered-nav .currently ol li span{float: right;}
+.block a.btn-remove:hover{padding-right: 0px !important;}
+
+
+/* ********************************************************************************************
+	Category Page
+*********************************************************************************************** */
+
+/* View Type: Grid  =============================================================== */
+
+/* Product Content */
+
+.products-grid button.button{padding-left: 120px;padding-right: 0px;}
+.products-grid button.button span{float: right;width: auto;}
+.products-grid .add-to-links{float: left;}
+.products-grid .add-to-links span.icon{border-right-color: #FFF;border-left-color: transparent;}
+
+
+/* View Type: List =============================================================== */
+
+.products-list .product-image-wrapper{margin-right: 0%;margin-left: 1%;}
+.products-list .btn-cart{margin-right: 0px;float: right;}
+.products-list .add-to-links{float: right;}
+
+
+/* ********************************************************************************************
+	Sale New Label
+*********************************************************************************************** */
+
+/* List Or Grid Label */
+.productlabels_icons {right: 20px;left: auto;}
+
+/* Lable Margin Right Side */
+#sidenav li a span.category-label, .block.block-sidenav #mega-nav li a span.category-label, #mega-nav ul.subs li a span.category-label{margin-left: 0px;margin-right: 5px;}
+#mega-nav .megamenu-vertical ul.subs li a span.category-label{left: 15px;right: auto;}
+
+
+/* ********************************************************************************************
+	Product view
+*********************************************************************************************** */
+
+/* Rating */
+.ratings .rating-box{float: right;margin-left: 8px;margin-right: 0px;}
+.ratings strong { float: right; margin: 1px 0px 0 5px; }
+.ratings-table th { padding-right:0px;padding-left: 8px; }
+
+/********** < Product Prices */
+.price-box .price-label{float: right;padding-right: 0px;padding-left: 5px;}
+
+/* Minimal price (as low as) */
+.minimal-price-link .label{float: right;}
+/********** Product Prices > */
+
+/* Tier Prices */
+.tier-prices li:before{content: "\f104";padding-left: 11px;float: right;}
+
+/* Add-to links */
+.add-to-links li { float:right }
+
+/* Text Add To Links */
+.addto-links-text li{margin-right: 0px;padding-right: 0px;margin-left: 20px;padding-left: 20px;border-left: 1px solid #E4E4E4;border-right: none;}
+.addto-links-text li.last, .addto-links-text li:last-child{border-left: none;}
+.addto-links-text span.icon-text{margin-right: 0px;margin-left: 10px;}
+
+/* Add to Cart */
+.qty-wrapper{float: right;margin-right: 0px;margin-left: 30px;}
+.qty-wrapper label{padding-right: 0px;padding-left: 5px;}
+.product-view .add-to-cart{float: right;}
+
+
+/* ********************************************************************************************
+	Product page
+*********************************************************************************************** */
+
+/* Product Images Column */
+.product-view .product-img-column{float: right;}
+
+/* Product Shop */
+.product-view .product-shop{float: right;padding: 0px 30px 0 0px;}
+.product-view .product-shop .sku{float: right;}
+.product-view .product-shop .price-box{margin-right: 0px;margin-left: 20px;float: right;}
+.product-view .availability{float: left;}
+
+/* Product third Column */
+.product-view .product-third-column{padding-left: 0px;padding-right: 30px;}
+
+
+/* ********************************************************************************************
+	Product options
+*********************************************************************************************** */
+
+.product-options dt label, .product-options dd .qty-holder label{}
+.product-options dt label.required em{float: left;margin-left: 0px;margin-right: 3px;}
+.product-options dd .qty-holder label{padding-right: 0px;padding-left: 5px;}
+.product-options ul.options-list input.radio {float: right;}
+.product-options ul.options-list input.checkbox{float: right;}
+.product-options p.required{right: auto;left: 0;}
+
+/* Block: Reviews */
+.product-view .buttons-set button.button{float: right;}
+.product-view .form-add .data-table th{text-align: right !important;}
+
+
+/* ********************************************************************************************
+	Content Styles
+*********************************************************************************************** */
+
+.catalogsearch-advanced-index .buttons-set button.button{float: right;}
+
+/* Sitemap */
+.page-sitemap .links{float: left;}
+
+
+/* ********************************************************************************************
+	Shopping Cart
+*********************************************************************************************** */
+
+.cart-table .btn-continue { float: right;}
+.cart-table .btn-update,
+.cart-table .btn-empty{float: left;margin-left: 0%;margin-right: 1%;}
+
+/* Discount Codes & Estimate Shipping and Tax Boxes  */
+.cart .discount .buttons-set,
+.cart .shipping .buttons-set{text-align: right;}
+
+/* Shopping Cart Totals */
+.cart .totals td:first-child.a-right{padding-right: 0px;padding-left: 40px;}
+.cart .totals .checkout-types li{text-align: left;}
+
+/* Options Tooltip */
+.item-options dt{float: right;margin-left: 7px;margin-right: 0px;}
+
+
+/* ********************************************************************************************
+	Checkout
+*********************************************************************************************** */
+
+/* Shipping and Payment methods */
+.sp-methods select.month{margin-right: 0px;margin-left: 10px;}
+.please-wait{float: left;}
+.cvv-what-is-this{margin-left: 0px;margin-right: 10px;}
+
+
+/* ********************************************************************************************
+	One Page Checkout
+*********************************************************************************************** */
+
+.opc .step-title{text-align: left;}
+.opc .step-title .number{float: right;margin: 0px 0px 0px 10px;}
+.opc .step-title h2{float: right;}
+
+/* Multiple Addresses Checkout */
+.checkout-progress li{float: right;}
+
+.multiple-checkout .place-order .grand-total big{margin-right: 0px;margin-left: 20px;}
+
+
+/* ********************************************************************************************
+	Account Login/Create Pages
+*********************************************************************************************** */
+
+/* Account Login/Create Pages Buttons-set */
+#opc-login p.required, .account-login p.required{text-align: right;}
+.account-login .buttons-set button, #opc-login .buttons-set button{float: right;}
+
+
+/* ********************************************************************************************
+	My Account
+*********************************************************************************************** */
+
+/********** < Dashboard */
+.dashboard .welcome-msg{text-align: right;}
+
+/* Dashboard Commmon Box */
+.box-account .box-head{text-align: left;}
+.box-account .box-head h2{float: right;}
+.box-account .box-head a {float: left;}
+
+.dashboard .box .box-title{text-align: left;}
+.dashboard .box .box-title h3,
+.dashboard .box .box-title h4{float: right;}
+
+/* Block: Reviews */
+.dashboard .box-reviews .number{float: right;}
+.dashboard .box-reviews .details{margin-left: 0px;margin-right: 38px;}
+
+/* Block: Tags */
+.dashboard .box-tags .number{float: right;}
+.dashboard .box-tags .details{margin-left: 0px;margin-right: 38px;}
+/********** Dashboard > */
+
+/* Address Book */
+.addresses-list h2{text-align: right;}
+
+/* Order View */
+.order-info dt,
+.order-info dd,
+.order-info li,
+.order-info li a{float: right;}
+
+.order-info dt{padding-right: 0px;padding-left: 10px;}
+
+.order-info-box .box .box-title{text-align: right;}
+
+.order-details h2{text-align: right;}
+
+/* My Tags */
+.my-tag-edit{float: right;}
+
+/* My Reviews */
+.product-review .product-img-box{float: right;}
+.product-review .product-details{margin: 0 155px 20px 0px;}
+
+
+/* ********************************************************************************************
+	Footer
+*********************************************************************************************** */
+
+
+.footer .block-subscribe .form-subscribe-header{padding-left: 10px;padding-right: 0;}
+.footer .block-subscribe .input-box{padding-left: 120px;padding-right: 0;}
+.block-subscribe button.button{left: 0;right: auto;}
+.footer li:hover{padding-left: 0;padding-right: 5px;}
+
+
+/* Footer Links */
+.footer ul.separator li a:hover{padding-left: 0px;padding-right: 10px;}
+
+/* Footer bottom */
+.footer-bottom .links-separators .links ul li,
+.footer-bottom .links-separators .links ul li.last{margin-left: 0px;margin-right: -3px;}
+.footer-bottom .links-separators .links > li.first > a{padding-left: 10px;padding-right: 3px;}
+.footer-bottom .links-separators .links > li.last > a{padding-right: 10px;padding-left: 0px;}
+.footer-bottom .links-separators .links ul + ul li.last{border-left: none;border-right: 1px solid;}
+.footer-bottom .links-separators .links ul li:hover{padding-right: 0;}
+.footer-bottom address{text-align: right;}
+
+/* Footer Payment */
+.footer .payment li:hover{padding-right: 0;}
+.footer-bottom .payment{text-align: left;}
+.footer-payment img{margin-left: 0px;margin-right: 10px;}
+
+/* Scroll Back to top Button */
+a.scrollup{right: auto;left: 25px;}
+
+/* Home Newsletter */
+.home-newsletter .block-subscribe .block-title{padding-right: 0%;padding-left: 2%;}
+.home-newsletter .block-subscribe input{padding-right: 10px;padding-left: 130px;}
+.home-newsletter .block-subscribe button.button{right: auto;left: 0;}
+
+
+/* ********************************************************************************************
+	Tooltip
+*********************************************************************************************** */
+
+.tooltip{right: auto;left: 0;}
+.tooltip:after{left: 13px;margin-right: -6px;right: auto;margin-left: 0px;}
+
+.tooltip.align-left{left: 100%;right: auto;margin-right: 0px;margin-left: 10px;}
+.tooltip.align-left:after{left: 0;right: auto;border-left-width: 0px;border-right-width: 6px;border-right-color: #606366;}
+
+
+/* ********************************************************************************************
+	Navigation
+*********************************************************************************************** */
+
+@media only screen and (min-width: 1025px)  {
+    
+    .nav-container {float: right;}
+    
+    .nav-container #nav li{float: right;text-align: right;}
+    .nav-container #nav li ul li a:before{padding-left: 10px;padding-right: 0px;content: "\f0d9";float: right;font-family: FontAwesome;}
+    
+    /* 2nd Level */
+    .nav-container #nav ul{left: auto;right: 0;}
+    
+    /*Category Label*/
+    .nav-container #nav li ul li a span.category-label{left: 15px;right: auto;}
+    
+    /* 3rd+ Level */
+    .nav-container #nav li ul li ul{left: auto;right: 115px;border-left-width: 0px;border-right-width: 3px;}
+    .nav-container #nav li ul li ul:before{border-right: none;border-left: 7px solid #F33636;left: auto;right: -10px;}
+    
+}
+
+/* Responsive Menu ======================================================================== */
+
+@media screen and (max-width: 1024px) {
+    
+    .toggleMenu:before{padding-left: 13px;float: right;padding-right: 0px;}
+    
+    #nav{text-align: right;}
+    #nav li li a {padding-right: 25px;padding-left: 0px;}
+    #nav li li li a {padding-right: 35px;padding-left: 0px;}
+    #nav li li li li a {padding-right: 45px;padding-left: 0px;}        
+    #nav li .more{left: 0;right: auto;}
+    
+    
+}
+
+
+/* ********************************************************************************************
+	Accordion
+*********************************************************************************************** */
+.accordion .block-title{padding-right: 0px;padding-left: 35px;}
+.accordion .opener{right: auto;left: 0;}
+
+
+/* ********************************************************************************************
+    Columngrid Item
+*********************************************************************************************** */
+
+.columngrid .item{float: right;}
+
+/* Column Grid: 2 columns */
+.columngrid-2col .item:nth-child(2n+1) { clear:right; }
+
+/* Column Grid: 3 columns */
+.columngrid-3col .item:nth-child(3n+1) { clear:right; }
+
+/* Column Grid: 4 columns */
+.columngrid-4col .item:nth-child(4n+1) { clear:right; }
+
+/* Column Grid: 5 columns */
+.columngrid-5col .item:nth-child(5n+1) { clear:right; }
+
+/* Column Grid: 6 columns */
+.columngrid-6col .item:nth-child(6n+1) { clear:right; }
+
+/* Column Grid: 7 columns */
+.columngrid-7col .item:nth-child(7n+1) { clear:right; }
+
+/* Column Grid: 8 columns */
+.columngrid-8col .item:nth-child(8n+1) { clear:right; }
+
+
+/* ********************************************************************************************
+	Dropdown
+*********************************************************************************************** */
+.dropdown-toggle .value:after{margin-left: 0px;margin-right: 5px;}
+.dropdown-menu{text-align: right;left: 0;right: auto;}
+.dropdown-menu.left-hand{left: auto;right: 0;}
+.lang-curren-box{float: left;}
+
+
+/* ********************************************************************************************
+	FLUID baseline GRID
+*********************************************************************************************** */
+
+/* Containers
+========================================================================= */
+.pull-container {
+    margin-left:0%;
+    margin-right:-1%;
+}
+
+/* Grid >> Global
+========================================================================= */
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12,
+.grid_full {	
+    float: right;
+}
+
+/* Grid >> Children (Left ~ First) (Remove Left Margin)
+========================================================================= */
+.no-left-margin.grid_1		{ margin-right:0;margin-left: 1%; }
+.no-left-margin.grid_2		{ margin-right:0;margin-left: 1%; }
+.no-left-margin.grid_3		{ margin-right:0;margin-left: 1%; }
+.no-left-margin.grid_4		{ margin-right:0;margin-left: 1%; }
+.no-left-margin.grid_5		{ margin-right:0;margin-left: 1%; }
+.no-left-margin.grid_6		{ margin-right:0;margin-left: 1%; }
+.no-left-margin.grid_7		{ margin-right:0;margin-left: 1%; }
+.no-left-margin.grid_8		{ margin-right:0;margin-left: 1%; }
+.no-left-margin.grid_9		{ margin-right:0;margin-left: 1%; }
+.no-left-margin.grid_10		{ margin-right:0;margin-left: 1%; }
+.no-left-margin.grid_11		{ margin-right:0;margin-left: 1%; }
+.no-left-margin.grid_12,
+.no-left-margin.grid_full	{ margin-right:0;margin-left: 1%; }
+
+/* Grid >> Children (Right ~ Last) (Remove Right Margin)
+========================================================================= */
+.no-right-margin.grid_1		{ margin-left:0;margin-right: 1%; }
+.no-right-margin.grid_2		{ margin-left:0;margin-right: 1%; }
+.no-right-margin.grid_3		{ margin-left:0;margin-right: 1%; }
+.no-right-margin.grid_4		{ margin-left:0;margin-right: 1%; }
+.no-right-margin.grid_5		{ margin-left:0;margin-right: 1%; }
+.no-right-margin.grid_6		{ margin-left:0;margin-right: 1%; }
+.no-right-margin.grid_7		{ margin-left:0;margin-right: 1%; }
+.no-right-margin.grid_8		{ margin-left:0;margin-right: 1%; }
+.no-right-margin.grid_9		{ margin-left:0;margin-right: 1%; }
+.no-right-margin.grid_10	{ margin-left:0;margin-right: 1%; }
+.no-right-margin.grid_11	{ margin-left:0;margin-right: 1%; }
+.no-right-margin.grid_12,
+.no-right-margin.grid_full	{ margin-left:0;margin-right: 1%; }
+
+
+/* ********************************************************************************************
+        Full Width Elements (Div under container display in full width) 
+*********************************************************************************************** */
+
+.alt-bg{
+    margin-left: 0px!important;
+    margin-right: -180px!important;
+}
+
+/* Full Width Elements Responsive */
+@media only screen and (min-width: 1500px) {
+    .alt-bg{
+        margin-left: 0px!important;
+        margin-right: -720px!important;
+    }
+}
+
+@media only screen and (min-width: 1980px) {
+    .alt-bg{
+        margin-left: 0px!important;
+        margin-right: -820px!important;
+    }
+}
+
+
+/* ********************************************************************************************
+	Section Heading
+*********************************************************************************************** */
+.section-title.padd-right{padding-right: 0px;padding-left: 80px;}
+
+
+/* ********************************************************************************************
+	Vertically Centered
+*********************************************************************************************** */
+
+/* Vertically aligned content */
+.v-centered-content {
+	display:table;
+}
+.v-centered-content .v-center {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+/* Vertically aligned grid */
+.v-grid-container {
+	display:table;
+	width:100%;
+}
+.v-grid {
+	float:none;
+	display:table-cell;
+	vertical-align:middle;
+}
+.product-tabs-content .v-grid-container{
+	display: table;
+	width: 100%;
+}
+.product-tabs-content .v-grid{
+	float:none;
+	display:table-cell;
+	vertical-align:middle;	
+}
+
+/* ********************************************************************************************
+	Vertical links
+*********************************************************************************************** */
+
+/* Links With Separators (Position Right) */
+.links-separators .links > li { margin-left: 0px;margin-right:-3px; border-left: 1px solid;border-right: none;line-height: 9px; }
+.links-separators .links > li > a {padding: 0 20px; }
+.links-separators .links > li.last {border-left: none;}
+.links-separators .links > li.last > a{padding-left: 0px;padding-right: 20px;}
+.links-separators .links > li.first > a{padding-right: 0px;padding-left: 20px;}
+.links-separators .links > li.hide-separator {border-left: none;border-right: 1px solid;}
+.links-separators .links > li.separator-left > a { border-right: 1px solid ;border-left: none;}
+
+/* Links With Separators (Position Left) */
+.links-separators-left .links > li { margin-right:0px;margin-left:-3px; border-right: 1px solid;border-left: none;}
+.links-separators-left .links > li > a {padding: 0 20px;}
+.links-separators-left .links > li.first{border-right: none;}
+.links-separators-left .links > li.last > a {padding-left: 0px;padding-right: 20px;}
+.links-separators-left .links > li.hide-separator > a { border-right: none;border-left: 1px solid; }
+.links-separators-left .links > li.separator-right > a { border-left: 1px solid;border-right: none; }
+
+
+/* ********************************************************************************************
+	Peer Icons
+*********************************************************************************************** */
+
+/* Peerwrapper Icon */
+.peer-wrapper .icon{margin: 0px 0px 10px 15px;float: right;}
+.peer-wrapper.right .icon{margin: 0px 15px 10px 0px;float: left;}
+
+/* Peer Wrapper */
+.peer-wrapper .img-box{}
+.peer-wrapper.right .img-box{margin: 0px 15px 10px 0px;float: left;}
+
+.peer-wrapper .img-autosize{margin: 0px 0px 10px 15px;float: right;}
+.peer-wrapper.right .img-autosize{margin: 0px 15px 10px 0px;float: left;}
+
+/* Social Link Icons */
+.social-link a{margin-right: 0px;margin-left: 10px;}
+.social-link a .icon{margin-left: 0px;}
+
+
+/* ********************************************************************************************
+    Side Nav ( Display Only Desktop Width )
+*********************************************************************************************** */
+
+.block.block-sidenav .sidenav-title .fa{margin-right: 0px;margin-left: 15px;}
+
+/* Sidenav Popup */
+.block.block-sidenav #mega-nav div.mega-block{left: auto !important;right: 100% !important;border-left-width: 0px;border-right-width: 3px;}
+
+/* First Level */
+.block.block-sidenav #mega-nav > li.parent > a:after{float: left;content: "\f0d9";}
+
+
+/* ********************************************************************************************
+        Tabs
+*********************************************************************************************** */
+
+.resp-tabs-container{clear: both;}
+.resp-tabs-list li{float: right;}
+.resp-arrow{float: left;}
+h2.resp-accordion{padding: 10px 20px 10px 10px}
+
+
+/* ********************************************************************************************
+	Ajex Add To Cart Popup
+*********************************************************************************************** */
+
+div.alert-inner{text-align: right;}
+div.alert-inner p{padding-left: 30px;padding-right: 20px;}
+div.alert-inner button.close{right: auto;left: 10px;}
+div.alert-inner a{float: right;}
+div.alert-inner a.cart{float: left;}
+
+
+/* ********************************************************************************************
+	Fancy Box
+*********************************************************************************************** */
+
+.fancy.product-view .product-img-column{margin-left: 1% !important;margin-right: 0% !important;}
+.fancy.product-view .product-shop{margin-left: 0% !important;margin-right: 1% !important;}
+.fancy.product-view .product-essential .product-name h1{padding-right: 0px;padding-left: 10px;}
+.fancybox-close{right: auto;left: 10px;}
+
+
+/* ********************************************************************************************
+        Mega Menu
+*********************************************************************************************** */
+
+#mega-nav > li{float: right;text-align: right;}
+#mega-nav ul.subs li li a:before, #mega-nav .megamenu-vertical ul.subs li a:before{float: right;padding-left: 10px;padding-right: 0px;content: "\f0d9";}
+
+#mega-nav ul.subs li li a:hover{padding-left: 0;padding-right: 10px;}
+#mega-nav .megamenu-vertical ul.subs li:hover > a{padding-right: 20px;}
+
+/* Third level */
+#mega-nav ul.subs ul ul{margin-left: 0px;margin-right: 10px;}
+
+/* Verticle Menu */
+#mega-nav .megamenu-vertical .mega-block{left: auto !important;right: 0px !important;}
+#mega-nav .megamenu-vertical ul{float: right;}
+#mega-nav .megamenu-vertical ul.subs ul{left: auto;right: 210px;border-left-width: 0px;border-right-width: 3px;}
+#mega-nav .megamenu-vertical ul.subs li ul:before{border-left:7px solid #F33636;border-right: none;right: -10px;left: auto;}
+
+#mega-nav ul.subs li img{margin-right: 0px;margin-left: 15px;}
+
+/* Responsive Menu ======================================================================== */
+
+#cssmenu #mobile-menu .open{left: 0px;right: auto;}
+
+/*Second Level*/
+#cssmenu #mobile-menu ul > li > a{padding-right: 25px;padding-left: 0px;}
+
+/*Third Level*/
+#cssmenu #mobile-menu ul ul > li > a{padding-right: 35px;padding-left: 0px;}
+
+/*Fourth Level*/
+#cssmenu #mobile-menu ul ul ul > li > a{padding-right: 45px;padding-left: 0px;}
+
+#cssmenu ul li a{text-align: right;}
+
+
+/* ********************************************************************************************
+	Itemslider
+*********************************************************************************************** */
+
+/* display none until init */
+.owl-carousel{direction: ltr;}
+
+.products-grid.itemslider,
+#brand.itemslider,
+#blogslider.itemslider{margin-left: 0px;margin-right: -20px;}
+
+.products-grid button.button span span{text-align: right;}
+.products-grid button.button span span i{padding-left: 8px;padding-right: 0;float: right;}
+
+/* Items */
+.products-grid.itemslider .item,
+#brand.itemslider .item,
+#blogslider.itemslider .item{margin:0px 20px 20px 2px;}
+
+/* Styling Next and Prev buttons */
+.owl-theme .owl-controls .owl-buttons{right: auto;left: 0;}
+.owl-theme .owl-controls .owl-buttons div{margin-left: 0px;margin-right: 5px;}
+
+
+/* ********************************************************************************************
+	Configurable Swatches
+*********************************************************************************************** */
+
+.configurable-swatch-list li{float: right;}
+
+
+/* ********************************************************************************************
+	Testimonial
+*********************************************************************************************** */
+
+.testimonial_sidebar_name img{float: right;}
+.testimonial_sidebar_name span{margin-left: 0px;margin-right: 15px;}
+.testimonial_sidebar_box .rating-box{margin-left: 130px;}
+
+/* Testimonial Sidebar */
+.testimonial_sidebar_text{text-align: right;}
+.testimonial_sidebar_text:after{left: auto;right: 23px;}
+
+/* Testimonial Page */
+.testimonials_container button.button{float: left !important;}
+.testimonial_image{float: right;}
+.testimonial_text{margin-right: 140px;margin-left: 0px;}
+.testimonial_text h2,
+.testimonial_text h3{text-align: left;}
+
+
+@media screen and (max-width: 1024px){
+    .toggleMenu {float: right;}
+}
+
+
+
+.block-blog .block-content h5:after{right: 0;}
+
+
+.about_us .accordion .opener{left: inherit;right: 0;}
+.about_us .accordion .block-title{padding-right: 60px;padding-left: 0px;}
+
+.about_us .skillbar-title{right: 0;}
+.about_us .skill-bar-percent span{left: -12px;right: auto;}
+
+
+
+
+
+

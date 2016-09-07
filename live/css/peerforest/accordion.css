@@ -1,0 +1,38 @@
+
+
+/* ********************************************************************************************
+	Accordion
+*********************************************************************************************** */
+
+.accordion { position:relative; }
+.accordion .block-title{font-size: 18px;line-height: 24px;margin-bottom: 25px;}
+
+/* Accordion Opner */
+.accordion .opener {
+	overflow: hidden;
+	font-family: FontAwesome;
+	font-size: 12px;
+	position: absolute;
+	right: 0;
+	z-index: 2;
+	display: inline-block;
+	text-align: center;
+	padding: 0px;
+	background-color: #252525;
+	color: #FFFFFF;
+	width: 20px;
+	height: 20px;
+	border-radius: 3px;
+	line-height: 20px;
+	cursor: pointer;
+	text-align: center;
+}
+.accordion .opener:hover,
+.accordion.active .opener{
+	background-color: #6fc138;
+	color: #fff;
+}
+
+.footer .accordion .opener{
+	text-indent: 4px;
+}

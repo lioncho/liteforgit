@@ -1,0 +1,9 @@
+<!--<layout version="0.1.0">
+
+
+           <reference name="head">
+                 <block type="core/template" name="offer.event" template="offer/event/event.phtml" />
+           </reference>
+
+
+</layout>-->

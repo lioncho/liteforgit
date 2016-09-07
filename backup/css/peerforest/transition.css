@@ -1,0 +1,136 @@
+
+
+/* ********************************************************************************************
+	Transitions
+*********************************************************************************************** */
+
+/* Links and other selected elements */
+a,
+.load-more-holder span i,
+span.category-label,
+span.category-label:before{
+	transition:		all 450ms ease-in-out;
+	-moz-transition:	all 450ms ease-in-out;
+	-webkit-transition:	all 450ms ease-in-out;
+	-o-transition:		all 450ms ease-in-out;
+}
+a:hover,
+.load-more-holder a:hover span i{
+	transition-duration:			100ms;
+	-moz-transition-duration:		100ms;
+	-webkit-transition-duration:	        100ms;
+	-o-transition-duration:			100ms;
+}
+
+
+/* Interface icons: toolbar icons, pager, prev/next slide etc. */
+.sorter .view-mode .grid,
+.sorter .view-mode .list,
+
+/* Back link */
+.buttons-set .back-link a,
+div.alert a,
+
+/* Theme Button */
+button.button span,
+div.alert-inner button.close,
+
+/* Add-to links */
+.add-to-links a,
+.add-to-links span.icon,
+
+/*Quick View*/
+.quick-view a,
+
+/* Accordion: opener */
+.accordion .opener,
+.resp-arrow,
+
+/* Scroll to top */
+.scrollup,
+
+/* Fade on */
+.fade-on-hover,
+
+/* Proruct Grid & Product List */
+.products-grid .item,
+.products-list .item
+{
+          transition:         all 300ms ease-in-out;
+          -moz-transition:    all 300ms ease-in-out;
+          -webkit-transition: all 300ms ease-in-out;
+          -o-transition:      all 300ms ease-in-out;
+          -ms-transition:     all 300ms ease-in-out;
+}
+
+/* Elements with animated color, background color and borders */
+
+/* Forms */
+input.input-text, select, textarea,
+.product-options ul.options-list,
+.quantity_counter,
+
+/* Product image thumbnails */
+.product-view .product-img-box .more-views .thumbnails li a,
+
+/* Product mini-lists */
+.mini-products-list .product-image,
+.cart .crosssell .product-image,
+
+/* Tabs & accordion */
+.resp-tabs-list li,
+
+/* OPC accordion */
+.opc .step-title
+{
+	transition:		all 300ms ease-in-out;
+	-moz-transition:	all 300ms ease-in-out;
+	-webkit-transition:	all 300ms ease-in-out;
+	-o-transition:		all 300ms ease-in-out;
+}
+
+/* Structural elements */
+
+/* Layered nav */
+.block-layered-nav dd li,
+
+/* Grid */
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12,
+.grid_full,
+.grid-col2-sidebar,
+.grid-col2-main,
+
+/* Products */
+.product-view .product-img-box,
+
+/* Forms */
+.form-search .input-text,
+
+/* Main menu */
+#nav > li,
+
+/* Misc */
+.header .logo,
+
+/* Peer Icons */
+.addto-links-icons li a span.icon,
+.peer-icon .icon,
+.social-link a .icon
+
+{
+	transition:		all 300ms ease-in-out;
+	-moz-transition:	all 300ms ease-in-out;
+	-webkit-transition:	all 300ms ease-in-out;
+	-o-transition:		all 300ms ease-in-out;
+}

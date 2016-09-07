@@ -1,0 +1,119 @@
+<div id="dorko_uk_top">
+    <div class="container_12 dorco_slider_wrapper">
+        <h1 class="top_heading_men">SHAVING  RANGES  FOR  ALL</h1>
+        <div id="dorco_slider">
+            <div class="product_area_men">
+                <div class="product_title_wrap">
+                    <h2 class="product_title">Value Packs</h2>
+                    <p class="sub_body">More You Save</p>
+                </div>
+                <a title="Subscribe PACE3" href="/men/value-packs"><img class="product_image retinaImg" alt="Value Packs, More You Save" src="/asset/images/160623_sub_02_01.jpg" /></a>
+                <div class="body_bottom">
+                    <p>Get more for money<br>
+                        A year’s supply of razors, Only £25</p>
+                    <a class="btn_dorco btn_sel" title="" href="/men/value-packs">SELECT</a> </div>
+            </div>
+            <div class="product_area_men">
+                <div class="product_title_wrap">
+                    <h2 class="product_title">BLADES</h2>
+                    <p class="sub_body">Fresh Blade Shave</p>
+                </div>
+                <a title="Subscribe PACE3" href="/men/blades"><img class="product_image retinaImg" alt="Fresh Blade Shave" src="/asset/images/160623_sub_02_02.jpg" /></a>
+                <div class="body_bottom">
+                    <p>Replace just your blade<br>To get fresh look</p>
+                    <a class="btn_dorco btn_sel" title="" href="/men/blades">SELECT</a> </div>
+            </div>
+            <div class="product_area_men">
+                <div class="product_title_wrap">
+                    <h2 class="product_title">Razors</h2>
+                    <p class="sub_body">Try Our Razors</p>
+                </div>
+                <a title="Subscribe PACE3" href="/men/razors"><img class="product_image retinaImg" alt="Try Our Razors" src="/asset/images/160623_sub_02_03.jpg" /></a>
+                <div class="body_bottom">
+                    <p>Our proprietary angulated blades<br>Experience our razors so good</p>
+                    <a class="btn_dorco btn_sel" title="" href="/men/razors">SELECT</a> </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!--begin 20160830 eve-->
+    <script>
+        function movetosomewhere(url) {
+            location.href = url;
+        }
+    </script>
+
+    <div class="container_12 clearfix men_section02" onclick="movetosomewhere('https://www.razorsbydorco.co.uk/men/disposables');">
+        <div class="men_section02_attr clearfix">
+            <div class="men_section02_title">
+                DISPOSALBLE &nbsp; RAZORS
+            </div>
+            <div class="men_section02_left">
+                <img src="/asset/images/160830-men-razors.png" alt="DORCO EVE CONTOUR WOMEN" class="">
+
+
+            </div>
+            <div class="men_section02_right">
+                <div class="men_section02_left_title"><strong>Specially selected to help you look your best</strong></div>
+                <ul>
+                    <li>PACE 6 Disposable Razor</li>
+                    <li>PACE 4 Disposable Razor</li>
+                </ul>
+                <div class="men_section02_right2 clearfix">
+                    <table class="men_section02_right_table">
+                        <tbody>
+                        <tr>
+                            <td><p class="men_section02_right_p">3
+                            </p><br>Packs
+                            </td>
+                            <td><p class="men_section02_right_p">5
+                            </p><br>Packs
+                            </td>
+                            <td><p class="men_section02_right_p">10
+                            </p><br>Packs
+                            </td>
+
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="men_btn02_container">
+                    <a class="men_btn02_select" title="SUBSCRIBE Dorco EVE" href="/men/disposables/">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--end 20160826 eve-->
+
+
+</div>
+
+
+
+
+
+
+<script type="text/javascript">// <![CDATA[
+j$('#dorco_slider').owlCarousel({
+    itemsCustom : [
+        [0, 1],
+        [450, 3]
+    ], //break point for single item at mobile portrait
+    navigation : true,
+    pagination: false,
+    rewindNav:false,
+    navigationText: ["", ""],
+    addClassActive:true
+}) // set Razor slide with Responsive
+
+j$(document).scroll(function() {
+    //console.log(j$('body').scrollTop());
+    if (j$('body').scrollTop() >0 && j$('body').scrollTop() <350) j$('#dorco_slider.owl-theme .owl-controls .owl-buttons div').show();
+    else j$('#dorco_slider.owl-theme .owl-controls .owl-buttons div').hide();
+});
+// ]]></script>
+<script type="text/javascript" src="/asset/js/retina.js"></script>

@@ -1,0 +1,250 @@
+<?php
+/**
+ * Magento Enterprise Edition
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Magento Enterprise Edition End User License Agreement
+ * that is bundled with this package in the file LICENSE_EE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://www.magento.com/license/enterprise-edition
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright Copyright (c) 2006-2015 X.commerce, Inc. (http://www.magento.com)
+ * @license http://www.magento.com/license/enterprise-edition
+ */
+?>
+
+<iframe width="0" height="0" name="Trade Desk Tracking - DORCO_RT" frameborder="0" scrolling="no" src="//insight.adsrvr.org/tags/th3p64n/bkfmw8t/iframe"></iframe>
+<iframe width="0" height="0" name="Trade Desk Tracking - DORCO_CONV" frameborder="0" scrolling="no" src="//insight.adsrvr.org/tags/th3p64n/e7l2qqe/iframe"></iframe>
+
+<script language='javascript'>
+    var _JV="AMZ2013010701";//script Version
+    var _UD='undefined';var _UN='unknown';
+    var _ace_countvar = 0;
+    var _DC = document.cookie ;
+    function _IDV(a){return (typeof a!=_UD)?1:0}
+    var _CRL='http://'+'gtc19.acecounter.com:8080/';
+    var _GCD='AS4A40858667818';
+    if( document.URL.substring(0,8) == 'https://' ){ _CRL = 'https://gtc19.acecounter.com/logecgather/' ;};
+    if(!_IDV(_A_i)) var _A_i = new Image() ;if(!_IDV(_A_i0)) var _A_i0 = new Image() ;if(!_IDV(_A_i1)) var _A_i1 = new Image() ;if(!_IDV(_A_i2)) var _A_i2 = new Image() ;if(!_IDV(_A_i3)) var _A_i3 = new Image() ;if(!_IDV(_A_i4)) var _A_i4 = new Image() ;
+    function _RP(s,m){if(typeof s=='string'){if(m==1){return s.replace(/[#&^@,]/g,'');}else{return s.replace(/[#&^@]/g,'');} }else{return s;} };
+    if(!_IDV(_ll)) var _ll=''; if(!_IDV(_AEC_order_code)) var _AEC_order_code='';
+    function _AGC(nm) { var cn = nm + "="; var nl = cn.length; var cl = _DC.length; var i = 0; while ( i < cl ) { var j = i + nl; if ( _DC.substring( i, j ) == cn ){ var val = _DC.indexOf(";", j ); if ( val == -1 ) val = _DC.length; return unescape(_DC.substring(j, val)); }; i = _DC.indexOf(" ", i ) + 1; if ( i == 0 ) break; } return ''; }
+    function _ASC( nm, val, exp ){var expd = new Date(); if ( exp ){ expd.setTime( expd.getTime() + ( exp * 1000 )); document.cookie = nm+"="+ escape(val) + "; expires="+ expd.toGMTString() +"; path="; }else{ document.cookie = nm + "=" + escape(val);};}
+    function AEC_B_L(){var _AEC_order_code_cookie='';var olt=[];var oll=[];var olk=[];var oct=0;if(document.cookie.indexOf('AECORDERCODE')>=0){_AEC_order_code_cookie=_AGC('AECORDERCODE');};if(_AEC_order_code!=''&&_AEC_order_code==_AEC_order_code_cookie){return'';}else{_ASC("AECORDERCODE",_AEC_order_code,86400*30*12);_ll='';for(var i=0;i<_A_pl.length;i++){var _a=_A_pn[i];var _o=olt[_a];olt[_a]=[_RP(_A_ct[i]),_RP(_a),parseInt(_RP(_A_amt[i],1))+((_o)?_o[2]:0),parseInt(_RP(_A_nl[i],1))+((_o)?_o[3]:0)];if(!_o){oll.push(olt[_a].join('@'));olk[_a]=oct;oct++;}else{oll[olk[_a]]=olt[_a].join('@');}};_ll=oll.join("^");};};
+    function AEC_S_F(str,md,idx){ var i = 0,_A_cart = ''; var k = eval('_A_i'+idx); md=md.toLowerCase(); if( md == 'b' || md == 'i' || md == 'o'){ _A_cart = _CRL+'?cuid='+_GCD ; _A_cart += '&md='+md+'&ll='+(str)+'&'; k.src = _A_cart;window.setTimeout('',2000);};};
+    if(!_IDV(_A_pl)) var _A_pl = Array(1) ;
+    if(!_IDV(_A_nl)) var _A_nl = Array(1) ;
+    if(!_IDV(_A_ct)) var _A_ct = Array(1) ;
+    if(!_IDV(_A_pn)) var _A_pn = Array(1) ;
+    if(!_IDV(_A_amt)) var _A_amt = Array(1) ;
+</script>
+
+<div class="page-title">
+    <h1><?php echo $this->__('Your order has been received.') ?></h1>
+</div>
+<?php echo $this->getMessagesBlock()->toHtml() ?>
+<h2 class="sub-title"><?php echo $this->__('Thank you for your purchase!') ?></h2>
+
+<?php if ($this->getOrderId()):?>
+<?php if ($this->getCanViewOrder()) :?>
+<p><?php echo $this->__('Your order reference is: %s.', sprintf('<a href="%s">%s</a>', $this->escapeHtml($this->getViewOrderUrl()), $this->escapeHtml($this->getOrderId()))) ?></p>
+<?php  else :?>
+<p><?php echo $this->__('Your order reference is: %s.', $this->escapeHtml($this->getOrderId())) ?></p>
+<?php endif;?>
+<p><?php echo $this->__('You will receive an order confirmation email with details of your order and a link to track its progress.') ?></p>
+<?php if ($this->getCanViewOrder() && $this->getCanPrintOrder()) :?>
+<p>
+    <?php echo $this->__('Click <a href="%s" onclick="this.target=\'_blank\'">here to print</a> a copy of your order confirmation.', $this->getPrintUrl()) ?>
+    <?php echo $this->getChildHtml() ?>
+</p>
+<?php endif;?>
+<?php endif;?>
+
+<?php if ($this->getAgreementRefId()): ?>
+<p><?php echo $this->__('Your billing agreement # is: %s.', sprintf('<a href="%s">%s</a>', $this->escapeHtml($this->getAgreementUrl()), $this->escapeHtml($this->getAgreementRefId())))?></p>
+<?php endif;?>
+
+<?php if ($profiles = $this->getRecurringProfiles()):?>
+<p><?php echo $this->__('Your recurring payment profiles:'); ?></p>
+<ul class="disc">
+    <?php foreach($profiles as $profile):?>
+    <?php $profileIdHtml = ($this->getCanViewProfiles() ? sprintf('<a href="%s">%s</a>', $this->escapeHtml($this->getProfileUrl($profile)), $this->escapeHtml($this->getObjectData($profile, 'reference_id'))) : $this->escapeHtml($this->getObjectData($profile, 'reference_id')));?>
+    <li><?php echo $this->__('Payment profile # %s: "%s".', $profileIdHtml, $this->escapeHtml($this->getObjectData($profile, 'schedule_description')))?></li>
+    <?php endforeach;?>
+</ul>
+<?php endif;?>
+
+<div class="buttons-set">
+    <button type="button" class="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Continue Shopping')) ?>" onclick="window.location='<?php echo $this->getUrl() ?>'"><span><span><?php echo $this->__('Continue Shopping') ?></span></span></button>
+</div>
+
+<?php
+	$sOrderId = Mage::getSingleton('checkout/session')->getLastOrderId();
+$oOrder = Mage::getModel('sales/order')->load($sOrderId);
+//echo $oOrder->getGrandTotal();
+?>
+
+<!-- Google Code for &#44208;&#51228;&#50756;&#47308;_tag Conversion Page -->
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 939939033;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "uRjxCPOVpGUQ2amZwAM";
+    var google_conversion_value = <?php echo $oOrder->getGrandTotal(); ?>;
+    var google_conversion_currency = "KRW";
+    var google_remarketing_only = false;
+    /* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<script>
+    // Assuming a single item is purchased
+    fbq('track', 'Purchase', {
+        content_type: 'product',
+        value: <?php echo $oOrder->getGrandTotal(); ?>,
+    currency: 'GBP'
+    });
+</script>
+<!--
+<noscript>
+<img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=132898747117407&ev=Purchase&cd[value]=<?php echo $oOrder->getGrandTotal(); ?>&cd[currency]=GBP&noscript=1" />
+</noscript>-->
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/939939033/?value=<?php echo $oOrder->getGrandTotal(); ?>&amp;currency_code=KRW&amp;label=uRjxCPOVpGUQ2amZwAM&amp;guid=ON&amp;script=0"/>
+    </div>
+</noscript>
+<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1692514537687411&ev=Purchase&cd[currency]= GBP&cd[value]=<?php echo $oOrder->getGrandTotal(); ?>"/>
+
+<script language='javascript'>
+    var _AEC_order_code='<?php$this->getOrderId()?>';		// ÁÖ¹®ÄÚµå
+    var _amt = '<?php echo $oOrder->getGrandTotal(); ?>'.replace(/[^0-9]/g,'') ;              // ÃÑ ±¸¸Å¾×
+    AEC_B_L();			// ±¸¸Å¿Ï·á ÇÔ¼ö
+</script>
+
+<?php
+
+//LinkShare Pixel tracking code starts here
+
+$ls_mid = '41668'; //replace xxxxx with your MID
+$ls_cur = 'GBP'; //replace yyyyy with your country currency code such as USD, GBP, AUD, CAD
+$ls_http_protocol = 'https'; //you can use either http or https
+$ls_track_mobile = 'Y'; //activating this will detect user browser and append the skus accordingly with 'M_'. default values to set is N and Y
+$ls_track_Cust_status = 'Y'; //activating this will add appropriate prifix to the sku such as 'R_'.  default values to set is N and Y
+$ls_VAT_rate = 20; //change 0 to your current VAT rate
+$ls_EU_VAT_rate = 0; //change 0 to your current VAT rate
+$ls_GST_rate = 0; //change 0 to your current GST rate
+$ls_salestax_rate = 0; //change 0 to your current SalesTax rate
+
+
+//Identifying if user is on mobile browser
+if ($ls_track_mobile == 'Y') {
+	if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i',$_SERVER['HTTP_USER_AGENT'])||preg_match('/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i',substr($_SERVER['HTTP_USER_AGENT'],0,4)))
+	{
+		$mobileStatus = 'M';
+	}else {
+		$mobileStatus = '';
+	}
+}
+
+//Identify if customer had previous purchase. if no purchase then it is a new customer
+if ($ls_track_Cust_status == 'Y') {
+	$customer = Mage::getSingleton('customer/session')->getCustomer();
+$orders = Mage::getResourceModel('sales/order_collection')->addFieldToSelect('*')->addFieldToFilter('customer_id', $customer->getId());
+if ($orders->getSize() <= 1)
+{
+$custStatus = '';// has never placed an order
+}else {
+$custStatus = 'R'; //returnign customer
+}
+}
+
+
+$lastorderid = Mage::getSingleton('checkout/session')->getLastOrderId();
+$_order = Mage::getModel('sales/order')->load($lastorderid);
+$ls_orderid = $this->getOrderId(); #get the order ID
+$ls_sku = '';
+$ls_amount = '';
+$ls_quantity = '';
+$ls_product = '';
+$ls_exchange_amt = 1;
+$ls_discount = $_order->discount_amount; // if this does not work try $ls_discount = $_order_details->discount_amount;
+//$ls_discount = $_order_details->discount_amount;
+$sale_currency = Mage::app()->getStore()->getCurrentCurrencyCode(); //pulls the current sale currency and assigns it to $sale_currency.
+
+if ($mobileStatus != '' || $custStatus != '') {
+$ls_prefix = $mobileStatus.$custStatus."_";
+}else {
+$ls_prefix = '';
+}
+
+//set exchange rate and VAT/TAX/GST rates below. set you base currency as 1 in default and currency code including LS_TAXRATE as your current rate. adjust the rest accordingly.
+Switch($sale_currency) {
+case 'EUR':		$ls_taxrate = $ls_EU_VAT_rate;
+break;
+case 'AUD':		$ls_taxrate = $ls_GST_rate;
+break;
+case 'GBP':		$ls_taxrate = $ls_VAT_rate;
+break;
+default:		$ls_taxrate = $ls_salestax_rate;
+break;
+} //the above rate are static rates. also set your network currency as one and other to refelect exchange rate
+
+//to deduct VAT, GST or any value added tax from reporting replace 0 with required rate in above switch cases - currently for US its 0 percent, for UK VAT is 20 percent and for AU GST is 10 percent
+$ls_taxrate = (($ls_taxrate+100)/100);
+
+foreach ($_order->getAllItems() as $item) {
+if($item->getPrice() > 0){
+if($ls_sku != '') { $ls_sku .= '|';}
+$ls_sku .= urlencode(trim($ls_prefix.$item->getSku()));
+if($ls_amount != '') { $ls_amount .= '|';}
+//$ls_amount .= round(((($item->getPrice() * $item->getQtyOrdered())/$ls_taxrate) * 100));
+$ls_amount .= round(($item->getPrice() * $item->getQtyOrdered()) * 100);
+if($ls_quantity != '') { $ls_quantity .= '|';}
+$ls_quantity .= round($item->getQtyOrdered());
+if($ls_product != '') { $ls_product .= '|';}
+$ls_product .= urlencode(trim($item->getName()));
+}
+}
+
+if($ls_discount != 0) {
+$ls_sku .= '|'.$ls_prefix.'Discount';
+$ls_amount .= '|'.round((($ls_discount/$ls_taxrate) * 100));
+$ls_quantity .= '|0';
+$ls_product .= '|Discount';
+}
+echo '<img src="'.$ls_http_protocol.'://track.linksynergy.com/ep?img=1&mid='.$ls_mid.'&ord='.$ls_orderid.'&cur='.$sale_currency.'&skulist='.$ls_sku.'&qlist='.$ls_quantity.'&amtlist='.$ls_amount.'&namelist='.$ls_product.'" width="1" height="1">';
+?>
+<script type='text/javascript'>
+    !function(d,s) {
+        var rc = d.location.protocol + "//go.referralcandy.com/purchase/ju6ujkcb4nz58albro2mzcyes.js";
+        var js = d.createElement(s);
+        js.src = rc;
+        var fjs = d.getElementsByTagName(s)[0];
+        fjs.parentNode.insertBefore(js,fjs);
+    }(document,"script");
+</script>
+
+<!-- begin taboola script 20160824 : 010-3944-4663 -->
+
+<script type="text/javascript">
+    window._tfa = window._tfa || [];
+    _tfa.push({ notify: 'action',name: 'Dorco_purchase' });
+</script>
+<script src="//cdn.taboola.com/libtrc/purplefriends-marketingcloud-dorco-sc/tfa.js"></script>
+
+<!-- end taboola script 20160824 : 010-3944-4663 -->
