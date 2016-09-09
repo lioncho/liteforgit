@@ -751,10 +751,6 @@ body.popup-base {overflow:hidden;}
 #dorko_uk_top .grid_12,
 #dorko_uk_top .grid_full {width:100%;margin:0;}
 #dorko_uk_top img {
-    display: block;
-    /* margin: 0 auto; */
-    width: auto;
-    max-width: 100%;
 }
 
 #dorco_slider {}
@@ -1075,7 +1071,7 @@ body.popup-base {overflow:hidden;}
 .main.container_12 {/* padding:0; */}
 #dorko_uk_top .grid_12,
 #dorko_uk_top .grid_full {width:100%;margin:0;}
-#dorko_uk_top img {width:auto;display:block;margin:0 auto;}
+#dorko_uk_top img {}
 
 .orangeText {color:#fc740e;}
 .cta_label {
@@ -1675,11 +1671,6 @@ div.eve-left > img {
 #dorko_uk_top .grid_12,
 #dorko_uk_top .grid_full {width:100%;margin:0;}
 #dorko_uk_top img {
-    display: block;
-    margin: 0 auto;
-    width: auto;
-    height: auto;
-    max-width: 100%;
 }
 
 #dorco_slider {}
@@ -2012,7 +2003,7 @@ div.eve-left > img {
 }
 .men_section02_right ul li {
 }
-.men_section02_right ul li:before{content: "√";
+.men_section02_right ul li:before{content: "âˆš";
     margin-right: 5px;}
 
 .men_section02_right_table{
@@ -2082,7 +2073,6 @@ div:nth-child(2) > div > a > img {
 */
 
 #dorko_uk_top .men_section02_left img{
-    max-width: 47%!important;
 }
 
 /* pc end men */
@@ -2134,10 +2124,6 @@ div:nth-child(2) > div > a > img {
 
 .women_section02_title{margin: 0 auto;text-align: center;font-family: 'bebasregular';font-size: 22px;padding: 4% 1px 3% 1px;}
 .women_section02_left{
-    float: left;
-    margin: 0% 0% 0% 8%;
-    width: 50%;
-    padding: 3% 0% 3% 0%;
 }
 
 .women_section02_left_title{
@@ -2155,7 +2141,7 @@ div:nth-child(2) > div > a > img {
 }
 .women_section02_right ul li {
 }
-.women_section02_right ul li:before{content: "√";
+.women_section02_right ul li:before{content: "âˆš";
     margin-right: 5px;}
 
 .women_section02_right_table{
@@ -2445,8 +2431,105 @@ div:nth-child(2) > div > a > img {
         padding: 0% 5% 0% 5%;}
 
     #dorko_uk_top .men_section02_left img{
+    }
+
+    /* end men */
+
+    .body_bottom p{
+        font-size:19px !important;
+    }
+    .top_heading_women{
+        margin: 5% 0% 5% 0% !important;
+        font-size: 24px;
+    }
+
+    .product_title_wrap .sub_body {font-size: 10px !important;}
+
+    .women_section02 {
+        padding: 5% 6% 7% 6% !important;
+    }
+    .women_section02_title{
+        padding:10% 0% 3% 0px !important;
+    }
+    .women_section02_left{
+        float:none!important;
+        margin: 3% 0% 4% 0% !important;
+        width: 100%!important;
+        padding: 3% 0% 1% 0%!important;
+    }
+    .women_section02_right {
+        float: none !important;
+        width: 100% !important;
+        max-width: 100% !important;
+
+    }
+    .women_section02_right2{
+        margin:5% 0% 6% 0%!important;
+    }
+    .women_btn02_container{
+        margin:0% auto 10% auto!important;
+    }
+    #dorko_uk_top .women_section02_left img{
         max-width: 65%!important;
 
+    }
+    /* end women*/
+
+
+}
+
+/* Responsive                   320 762 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 762px) and (orientation : portrait) {
+    .top_heading_home_a {
+        font-size: 21px !important;
+        margin: 10% 0 5% 0 !important;
+        max-width: 100% !important;
+    }
+
+    /* end home-a */
+    .eve-right {
+        padding: 0% 1% 0% 3%;
+
+        /* end subscriptions*/
+    }
+
+    .top_heading_men{
+        font-size:21px !important;
+
+    }
+
+    .men_section02 {
+        padding: 5% 6% 7% 6% !important;
+    }
+    .men_section02_title{
+        padding : 12% 0% 3% 0%;
+
+    }
+
+    .men_section02_left{
+        float:none!important;
+        margin: 3% auto 4% auto !important;
+        width: 100%!important;
+        padding: 3% 0% 1% 0%!important;
+        min-width: 93% !important;
+    }
+    .men_section02_right {
+        float: none !important;
+        width: 100% !important;
+        max-width: 100% !important;    }
+
+    .men_section02_right2{
+        margin:5% 0% 6% 0%!important;    }
+    .men_btn02_container{
+        margin:0% auto 10% auto!important;    }
+
+    .men_section02_left img {
+        padding: 3% 10% 5% 10% !important;    }
+
+    .men_section02_right_table tbody tr td {
+        padding: 0% 5% 0% 5%;}
+
+    #dorko_uk_top .men_section02_left img{
     }
 
     /* end men */
@@ -2548,15 +2631,14 @@ div:nth-child(2) > div > a > img {
         padding: 0% 5% 0% 5%;}
 
     #dorko_uk_top .men_section02_left img{
-        max-width: 65%!important;
-
+        /* max-width: 65%!important; */
     }
     /* ip6 end men */
 
-    #dorko_uk_top .women_section02_left img{
-        max-width: 65%!important;
-
+    .women_section02_left{
+        max-width:100% !important;
     }
+
     /* ip6 end women */
 }
 
@@ -2609,8 +2691,7 @@ div:nth-child(2) > div > a > img {
     .men_section02_right_table tbody tr td {
         padding: 0% 5% 0% 5%;}
     #dorko_uk_top .men_section02_left img{
-        max-width: 65%!important;
-
+        /* max-width: 65%!important; */
     }
 
     /* ip6+ end men */
@@ -2764,8 +2845,7 @@ div:nth-child(2) > div > a > img {
         margin:0% auto 10% auto!important;
     }
     #dorko_uk_top .men_section02_left img{
-        max-width: 65%!important;
-
+        /* max-width: 65%!important; */
     }
     /* s5 end men*/
 
@@ -3659,10 +3739,6 @@ body.popup-base {overflow:hidden;}
 #dorko_uk_top .grid_12,
 #dorko_uk_top .grid_full {width:100%;margin:0;}
 #dorko_uk_top img {
-    display: block;
-    /* margin: 0 auto; */
-    width: auto;
-    max-width: 100%;
 }
 
 #dorco_slider {}
@@ -3983,7 +4059,7 @@ body.popup-base {overflow:hidden;}
 .main.container_12 {/* padding:0; */}
 #dorko_uk_top .grid_12,
 #dorko_uk_top .grid_full {width:100%;margin:0;}
-#dorko_uk_top img {width:auto;display:block;margin:0 auto;}
+#dorko_uk_top img {}
 
 .orangeText {color:#fc740e;}
 .cta_label {
@@ -4063,7 +4139,7 @@ body.popup-base {overflow:hidden;}
 .top_con_02 {    text-align: center;
     padding: 100px 0;}
 
-.bottom_col_icon {display:inline-block;padding:0 45px;    margin: 0;    vertical-align: top;}
+.bottom_col_icon {display:inline-block;padding: 0 3% 0% 0%;margin: 0;vertical-align: top;}
 
 .top_con_02 .col1_subheading {padding: 30px 0 15px;letter-spacing:1px;}
 .col1_subbody {}
@@ -4587,10 +4663,8 @@ div.eve-left > img {
     margin: 0 auto;
     width: auto;
     height: auto;
-    max-width: 100%;
 }
 #dorko_uk_top .women_section02_left img{
-    max-width: 47%!important;
 }
 
 #dorco_slider {}
@@ -4726,7 +4800,7 @@ div.eve-left > img {
     color: #2a2a2a;}
 .bottom_right ul li {    text-indent: -15px;
     padding-left: 15px;}
-.bottom_right ul li:before{content:"√";    margin-right: 5px;}
+.bottom_right ul li:before{content:"âˆš";    margin-right: 5px;}
 
 
 
@@ -4887,29 +4961,31 @@ div.eve-left > img {
 
 /* begin men */
 
-.men_section02{
-
-    padding: 1px 9px 6px 10px;
-
-}
+.men_section02{padding: 1px 9px 0px 10px;}
 .men_section02_attr{
     border: 1px solid #ccc;
-    margin: 2% auto 2% auto;
-    padding: 2px 1px 1px 1px;
+    margin: 2% auto 4% auto;
+    padding: 0px 1px 0.5% 1px;
     clear: both;
 }
 
-.men_section02_title{margin: 0 auto;text-align: center;font-family: 'bebasregular';font-size: 22px;padding: 4% 1px 3% 1px;}
+.men_section02_title{margin: 0 auto;text-align: center;font-family: 'bebasregular';font-size: 22px;padding: 2% 1px 3% 1px;}
 .men_section02_left{
     float: left;
-    margin: -5% 0% 0% 8%;
+    margin: 1% 1% 0% 21%;
     width: 50%;
-    padding: 3% 0% 3% 0%;
+    padding: 0% 0% 3% 0%;
+    max-width: 25% !important;
 }
 .men_section02_left img{}
 .men_section02_left_title{
     text-align: center;
-    margin: 0% 0%  0% 0%;
+    margin: 0% auto  3% auto;
+    font: 14px/18px 'Univers LT W01_45 Light', Helvetica, sans-serif;
+    color: #252525;
+    text-align: center;
+    letter-spacing: 1px;
+    max-width: 100%;
 }
 .men_section02_right{float: right;margin: -0.5% 5% 0% 0%;width: 50%;max-width: 37%;}
 .men_section02_right ul {
@@ -4922,8 +4998,7 @@ div.eve-left > img {
 }
 .men_section02_right ul li {
 }
-.men_section02_right ul li:before{content: "√";
-    margin-right: 5px;}
+.men_section02_right ul li:before{ content:"âˆš"; margin-right: 5px;}
 
 .men_section02_right_table{
     margin: 0 auto;
@@ -4931,7 +5006,7 @@ div.eve-left > img {
 .men_section02_right_table tbody{}
 .men_section02_right_table tbody tr {}
 .men_section02_right_table tbody tr td {
-    padding: 0% 9% 0% 0%;
+    padding: 0% 4.5% 0% 4.5%;
     color: #403d3d;
     font-size: 13px;
     font-family: 'Univers LT W01_65 Bold';
@@ -4964,7 +5039,7 @@ div.eve-left > img {
         padding: 26% 1% 0% 1%; */
 }
 
-.men_section02_right2{margin: 4% 0% 3% 0%;}
+.men_section02_right2{margin: 3% 0% 3% 0%;}
 .men_btn02_container{margin: 0% auto;padding: 0% 0% 0% 0%;}
 
 .men_btn02_select {
@@ -4989,9 +5064,7 @@ div:nth-child(2) > div > a > img {
     height:252px; }
 */
 
-#dorko_uk_top .men_section02_left img{
-    max-width: 47%!important;
-}
+#dorko_uk_top .men_section02_left img{width: 100%;}
 
 /* pc end men */
 
@@ -5034,22 +5107,26 @@ div:nth-child(2) > div > a > img {
 }
 .women_section02_attr{
     border: 1px solid #ccc;
-    margin: 2% auto 2% auto;
-    padding: 2px 1px 1px 1px;
+    margin: 2.5% auto 3% auto;
+    padding: 2px 0px 2.5% 1px;
     clear: both;
 }
 
-.women_section02_title{margin: 0 auto;text-align: center;font-family: 'bebasregular';font-size: 22px;padding: 4% 1px 3% 1px;}
+.women_section02_title{margin: 0 auto;text-align: center;font-family: 'bebasregular';font-size: 22px;padding: 2% 1px 3% 1px;}
 .women_section02_left{
     float: left;
-    margin: -1% 0% 0% 8%;
+    margin: 2% 0% 0% 18%;
     width: 50%;
-    padding: 0% 0% 3% 0%;
+    padding: 0% 0% 0% 0%;
+    max-width: 28%;
 }
 
 .women_section02_left_title{
+    margin: 0% auto  3% auto;
+    font: 14px/18px 'Univers LT W01_45 Light', Helvetica, sans-serif;
+    color: #252525;
     text-align: center;
-    margin: 0% 0%  0% 0%;
+    letter-spacing: 1px;
 }
 .women_section02_right{float: right;margin: 0% 5% 0% 0%;width: 50%;max-width: 37%;}
 .women_section02_right ul {
@@ -5062,7 +5139,7 @@ div:nth-child(2) > div > a > img {
 }
 .women_section02_right ul li {
 }
-.women_section02_right ul li:before{content: "√";
+.women_section02_right ul li:before{content: "âˆš";
     margin-right: 5px;}
 
 .women_section02_right_table{
@@ -5270,23 +5347,32 @@ div:nth-child(2) > div > a > img {
         max-width: 100% !important;
     }
     #dorko_uk_top .women_section02_left img{
-        max-width: 51%!important;
+        /* max-width: 51%!important; */
     }
     .women_section02_left {
-        margin:0% 0% 0% 8% !important;
+        margin: 2% 0% 0% 17% !important;
         padding:0% 0% 3% 0% !important;
+        max-width: 28% !important;
     }
     .women_section02_left_title {
-        margin: 1% 0% 0% 0%;
+        margin: 1% 0% 4% 0%;
+        max-width: 100% !important;
     }
 
     /* end women */
+
+    .men_section02_left{
+        max-width: 29% !important;
+        margin: 0% 0% 0% 18% !important;
+    }
+
+    /* ipad l end men */
 
 } /* end ipad landscape */
 
 
 /* iPads (portrait) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation: portrait) {
     .body_bottom p{ font-size:11px !important}
     /*end .??? */
 
@@ -5296,15 +5382,47 @@ div:nth-child(2) > div > a > img {
 
 
     .women_section02_left {
-        margin:0% 0% 0% 8% !important;
+        margin: 4% 0% 0% 10% !important;
         padding:0% 0% 3% 0% !important;
+        max-width: 35% !important;
     }
     .women_section02_left_title {
-        margin: 1% 0% 0% 0%;
+        margin: 1% auto 3% auto !important;
+        max-width: 100% !important;
     }
-    /* end women */
 
+    .women_section02_attr{
+        padding: 0% 0% 2% 0% !important;
+    }
+    .women_section02_title{
+        padding:2% 0% 2% 0% !important;
+    }
+    .women_section02_right{
+        max-width: 100% !important;
+        margin:0% 0% 0% 0%!important;
 
+    }
+    /* ipad p end women */
+    .men_section02_left_title{
+        max-width:100% !important;
+        width:100% !important;
+    }
+    .men_section02_right{
+        max-width:48% !important;
+        margin:0% 0% 0% 0%!important;
+    }
+    .men_section02_title{
+        padding: 3% 0% 3% 0%!important;
+    }
+    .men_section02_left{
+        padding: 0% 0% 0% 0%!important;
+        max-width: 30% !important;
+        margin: 4% 0% 0% 13% !important;
+    }
+    .men_section02_attr{
+        padding: 0% 0% 2% 0% !important;
+    }
+    /* ipad p end men */
 
 } /* end ipad */
 
@@ -5355,9 +5473,10 @@ div:nth-child(2) > div > a > img {
 
     .men_section02_left{
         float:none!important;
-        margin: 3% 0% 4% 0% !important;
+        margin: 3% auto 4% auto !important;
         width: 100%!important;
         padding: 3% 0% 1% 0%!important;
+        max-width: 82% !important;
     }
     .men_section02_right {
         float: none !important;
@@ -5379,7 +5498,7 @@ div:nth-child(2) > div > a > img {
     /* ihpone5 end men */
 
     .body_bottom p{
-        font-size:19px !important;
+        font-size: 12px !important;
     }
     .top_heading_women{
         margin: 5% 0% 5% 0% !important;
@@ -5396,9 +5515,10 @@ div:nth-child(2) > div > a > img {
     }
     .women_section02_left{
         float:none!important;
-        margin: 3% 0% 4% 0% !important;
+        margin: 3% auto 4% auto !important;
         width: 100%!important;
         padding: 3% 0% 1% 0%!important;
+        max-width: 95% !important;
     }
     .women_section02_right {
         float: none !important;
@@ -5450,9 +5570,10 @@ div:nth-child(2) > div > a > img {
 
     .men_section02_left{
         float:none!important;
-        margin: 3% 0% 4% 0% !important;
+        margin: 3% auto 4% auto !important;
         width: 100%!important;
         padding: 3% 0% 1% 0%!important;
+        max-width: 85% !important;
     }
     .men_section02_right {
         float: none !important;
@@ -5505,9 +5626,10 @@ div:nth-child(2) > div > a > img {
 
     .men_section02_left{
         float:none!important;
-        margin: 3% 0% 4% 0% !important;
+        margin: 3% auto 4% auto !important;
         width: 100%!important;
         padding: 3% 0% 1% 0%!important;
+        max-width: 84% !important;
     }
     .men_section02_right {
         float: none !important;
@@ -5549,6 +5671,7 @@ div:nth-child(2) > div > a > img {
         margin: 3% 0% 4% 0% !important;
         width: 100%!important;
         padding: 3% 0% 1% 0%!important;
+        max-width: 100% !important;
     }
     .women_section02_right {
         float: none !important;
@@ -5655,9 +5778,10 @@ div:nth-child(2) > div > a > img {
     }
     .men_section02_left{
         float:none!important;
-        margin: 3% 0% 4% 0% !important;
+        margin: 3% auto 4% auto !important;
         width: 100%!important;
         padding: 3% 0% 1% 0%!important;
+        max-width: 70% !important;
     }
     .men_section02_right {
         float: none !important;
@@ -5675,7 +5799,7 @@ div:nth-child(2) > div > a > img {
 
 
     .body_bottom p{
-        font-size:19px !important;
+        font-size: 14px !important;
     }
     .top_heading_women{
         margin: 5% 0% 5% 0% !important;
@@ -5694,7 +5818,7 @@ div:nth-child(2) > div > a > img {
         margin: 3% auto 4% auto !important;
         width: 100% !important;
         padding: 3% 0% 0% 0%!important;
-
+        max-width: 100% !important;
     }
     .women_section02_left_img{
         max-width:64 !important;
@@ -5747,9 +5871,10 @@ div:nth-child(2) > div > a > img {
 
     .men_section02_left{
         float:none!important;
-        margin: 3% 0% 4% 0% !important;
+        margin: 3% auto 4% auto !important;
         width: 100%!important;
         padding: 3% 0% 1% 0%!important;
+        max-width: 70%!important;
     }
     .men_section02_right {
         float: none !important;
@@ -5767,7 +5892,7 @@ div:nth-child(2) > div > a > img {
     /* n5 end men */
 
     .body_bottom p{
-        font-size:19px !important;
+        font-size: 14px !important;
     }
     .top_heading_women{
         margin: 5% 0% 5% 0% !important;
@@ -5787,6 +5912,7 @@ div:nth-child(2) > div > a > img {
         margin: 3% 0% 4% 0% !important;
         width: 100%!important;
         padding: 3% 0% 1% 0%!important;
+        max-width: 100% !important;
     }
     .women_section02_right {
         float: none !important;
@@ -5812,13 +5938,6 @@ div:nth-child(2) > div > a > img {
 /* end home-a mobile responsibve */
 
 
-/* begin full width */
-.main.container_12{
-    width:100%;
-    max-width:inherit;
-}
-
-/* end full width */
 
 /* begin test css*/
 

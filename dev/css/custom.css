@@ -893,7 +893,7 @@ body.popup-base {overflow:hidden;}
     color: #2a2a2a;}
 .bottom_right ul li {    text-indent: -15px;
     padding-left: 15px;}
-.bottom_right ul li:before{content:"√";    margin-right: 5px;}
+.bottom_right ul li:before{content:"âˆš";    margin-right: 5px;}
 
 
 
@@ -1806,7 +1806,7 @@ div.eve-left > img {
     color: #2a2a2a;}
 .bottom_right ul li {    text-indent: -15px;
     padding-left: 15px;}
-.bottom_right ul li:before{content:"√";    margin-right: 5px;}
+.bottom_right ul li:before{content:"âˆš";    margin-right: 5px;}
 
 
 
@@ -2003,7 +2003,7 @@ div.eve-left > img {
 }
 .men_section02_right ul li {
 }
-.men_section02_right ul li:before{content: "√";
+.men_section02_right ul li:before{content: "âˆš";
     margin-right: 5px;}
 
 .men_section02_right_table{
@@ -2141,7 +2141,7 @@ div:nth-child(2) > div > a > img {
 }
 .women_section02_right ul li {
 }
-.women_section02_right ul li:before{content: "√";
+.women_section02_right ul li:before{content: "âˆš";
     margin-right: 5px;}
 
 .women_section02_right_table{
@@ -3881,7 +3881,7 @@ body.popup-base {overflow:hidden;}
     color: #2a2a2a;}
 .bottom_right ul li {    text-indent: -15px;
     padding-left: 15px;}
-.bottom_right ul li:before{content:"√";    margin-right: 5px;}
+.bottom_right ul li:before{content:"âˆš";    margin-right: 5px;}
 
 
 
@@ -4800,7 +4800,7 @@ div.eve-left > img {
     color: #2a2a2a;}
 .bottom_right ul li {    text-indent: -15px;
     padding-left: 15px;}
-.bottom_right ul li:before{content:"√";    margin-right: 5px;}
+.bottom_right ul li:before{content:"âˆš";    margin-right: 5px;}
 
 
 
@@ -4998,7 +4998,7 @@ div.eve-left > img {
 }
 .men_section02_right ul li {
 }
-.men_section02_right ul li:before{ content:"√"; margin-right: 5px;}
+.men_section02_right ul li:before{ content:"âˆš"; margin-right: 5px;}
 
 .men_section02_right_table{
     margin: 0 auto;
@@ -5139,7 +5139,7 @@ div:nth-child(2) > div > a > img {
 }
 .women_section02_right ul li {
 }
-.women_section02_right ul li:before{content: "√";
+.women_section02_right ul li:before{content: "âˆš";
     margin-right: 5px;}
 
 .women_section02_right_table{
